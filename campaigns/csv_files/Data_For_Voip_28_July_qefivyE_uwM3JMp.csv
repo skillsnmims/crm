@@ -1,0 +1,583 @@
+FIRST-NAME,LAST-NAME,PHONE,EMAIL,INDUSTRY,COMPANY,EMP-RANGE,WEBSITE,CITY,COUNTRY,ZIP-CODE,ADDRESS-1,ADDRESS-2,JOB-TITLE
+Mike,Cardina,2164442200,mcardina@ccf.org,NA,CLEVELAND CLINIC FLORIDA,NA,NA,Cleveland,United States,44195,9500 Euclid Ave,NA, System Engineer 
+Hersh,Singh,5025801000,hersh.singh@humana.com,NA,HUMANA MILITARY HEALTHCARE SER,NA,NA,Louisville,United States,40202,500 W MAIN St,NA, Director Software Engineering 
+Mike,Vanho,6104446350,Mike.Vanho@genesishcc.com,NA,GENESIS HEALTHCARE INC,NA,NA,"Kennett Square,",United States,19348," 101 State St,",NA," Director, IT Shared Services. "
+Scott,Kracht,6053224700,Scott.Kracht@avera.org,NA,AVERA HEALTH,NA,NA,Sioux Falls,United States,57108,3900 W Avera Dr,NA, System Engineer II 
+John,Cumbo,7168983000,jcumbo@ecmc.edu,NA,ECMC,NA,NA,Buffalo,United States,14204,97 Lemon St,NA, Information Technology Director 
+Jeffrey,Apple,5025967300,jeffrey.apple@kindredhealthcare.com,NA,KINDRED HEALTHCARE,NA,NA,Louisville,United States,40202,680 S 4th St,NA, Enterprise Mobility Engineer 
+Jason,Logsdon,5025967300,jason.logsdon@kindredhealthcare.com,NA,KINDRED HEALTHCARE,NA,NA,Louisville,United States,40202,680 S 4th St,NA, Sr. Enterprise Mobility Engineer  
+Stephen,Willson,4109332424,stephen.willson@medstarHealth.org,NA,MEDSTAR HEALTH,NA,NA,Columbia,United States,21044,10980 Grantchester Way,NA, Regional Director Information Technology 
+Louis,Maniatis,4109332424,louis.maniatis@medstarHealth.org,NA,MEDSTAR HEALTH,NA,NA,Columbia,United States,21044,10980 Grantchester Way,NA, Director Of Information Technology 
+Dawne,Caesar,5025801000,dcaesar@humana.com,NA,HUMANA INC,NA,NA,Louisville,United States,40202,500 W Main St,NA, Director of IT 
+Jackie,Hardison,5025801000,JHardison@humana.com,NA,HUMANA INC,NA,NA,Louisville,United States,40202,500 W Main St,NA, IT Director 
+Monica,Fouad,6153449551,Monica.Fouad@hcahealthcare.com,NA,HCA HOSPITAL,NA,NA,Nashville,United States,37203,1 Park Plaza,NA, Senior Application System Engineer 
+Sal,Herrera,6153449551,Sal.Herrera@hcahealthcare.com,NA,HCA HOSPITAL,NA,NA,Nashville,United States,37203,1 Park Plaza,NA," Director, IT Service Operations - HCA ITG "
+Sheryl,Johnson,5173641000,sheryl.johnson@sparrow.org,NA,SPARROW HEALTH SYSTEM,NA,NA,Lansing,United States,48912,1215 E Michigan Ave,NA, Director of IT Applications 
+Matt,Jordan,5413824321,matt.jordan@stcharleshealthcare.org,NA,St. Charles Corporation,NA,NA,Bend,United States,97701,"2500 NE Neff Rd,",NA, Director of Technology 
+Jonathan,Kriegh,5413824321,jonathan.kriegh@stcharleshealthcare.org,NA,St. Charles Corporation,NA,NA,Bend,United States,97701,"2500 NE Neff Rd,",NA, System Engineer II a 
+Lydia,Ophaug,8134705651,lydia.ophaug@wellcare.com,NA,WELLCARE HEALTH PLANS INC,NA,NA,Tampa,United States,33604, 200 W Waters Ave,NA, Director - IT Infrastructre 
+Fred,Ganter,8134705651,fred.ganter@wellcare.com,NA,WELLCARE HEALTH PLANS INC,NA,NA,Tampa,United States,33604, 200 W Waters Ave,NA, Director of Information Technology 
+Charles,Boyle,6172781000,charles.boyle@partners.org,NA,PARTNERS HEALTHCARE,NA,NA,Boston,United States,2199,800 Boylston Street # 1150,NA, System Engineer 
+Michael,Worsham,4128251000, mworsham@wabtec.com ,NA,Wabtec,NA,NA,Wilmerding,United States,15148,1001 Airbrake Avenue,NA,Cloud Infrastructure / Solutions Architect
+Adnan,Malik,2149997640, amalik@moneygr.am ,NA,MoneyGram International,NA,NA,Dallas,United States,75201,2828 N Harwood St #15,NA,Enterprise Architect / Director IT Engineering
+Jeff,Leonard,2124604600, leonardj@coned.com ,NA,Con Edison,NA,NA,New York,United States,10003,4 Irving Pl,NA,Systems Manager - Data Architecture
+William(Trey),Donaldson,8173027000, trey.donaldson@gmfinancial.com ,NA,Gm Financial,NA,NA,Fort Worth,United States,76102,801 Cherry St Suite 3500,NA,Data Architecture Manager
+Nasir,Majeed,2818705000, nasir.majeed@mcdermott.com ,NA,McDermott International Inc.,NA,NA,Houston,United States,77079,915 N. Eldridge Parkway,NA,Sr. Manager Data Services / Data Architect
+Kurt,Witt,7136297600, kwitt@quantaservices.com ,NA,"Quanta Services, Inc.",NA,NA,Houston,United States,77056,"2800 Post Oak Blvd, Ste. 2600",NA,Data Architecture/Data Management Services
+Pankaj,Wadnere,2014406700, pankaj.wadnere@falconjet.com ,NA,Dassault Falcon Jet,NA,NA,Little Ferry,United States,7643,200 Riser Rd,NA,Project Manager BI/ Enterprise Data Warehouse Architect/ Qlik Sense Architect/ SAP FICO
+Kishore,Pendyala,2124286200, kishore.pendyala@rbccm.com ,NA,Rbc Capital Markets Real Estate Group Inc,NA,NA,New York,United States,10006,165 Broadway,NA,"Data & Analytics Lead/Architect, AD"
+Ashley,Close,2168256715, Ashley.Close@mrisoftware.com ,NA,MRI Software,NA,NA,Solon,United States,44139,28925 Fountain Pkwy,NA,Solutions Architect
+Arkadi,Yaroslavtsev,2033565000, arkadi.Yaroslavtsev@pitneybowes.com ,NA,Pitney Bowes,NA,NA,Stamford,United States,6926,3001 Summer St,NA,Data Systems Architect
+Craig,Simons,8474656000, craig.simons@cdw.com ,NA,CDW,NA,NA,Lincolnshire,United States,60069,75 Tri State International,NA,Data Solution Architect
+Joe,Krause,8054471000, jkrause@amgen.com ,NA,Amgen,NA,NA,Thousand Oaks,United States,91320,1 Amgen Center Dr,NA,Data Warehouse & Integration Architect
+DwiSuri,Damia,8474675467, dwi.damia@northwestern.edu ,NA,Northwestern University,NA,NA,Evanston,United States,60208,633 Clark Street,NA,Data Management and Analytics - Integration Architecture
+Brenda ,Gilbert,2036145600, brenda.gilbert@frontier.com ,NA,Frontier Communications,NA,NA,Norwalk,United States,6851,401 Merritt 7,NA,Senior Solutions Architect
+Anupama ,Venkatesh,2125782211, avenkatesh@metlife.com ,NA,MetLife,NA,NA,New York,United States,10166,"MetLife, Inc.
+200 Park Avenue",NA,Lead Architect (Solutions Architect)
+Bob,Bomar,2147416911,bob_bomar@neimanmarcusgroup.com,NA,Neiman Marcus Group,NA,NA,Dallas,United States,75201,1618 Main St,NA,Datacenter Architect
+Ann,Poindexter,8173027000,ann.poindexter@gmfinancial.com,NA,GM Financial,NA,NA,Fort Worth,United States,76102,801 Cherry St Suite 3500,NA,Data Architect Manager
+Niranjan,Kesani,6082492111,nkesani@amfam.com,NA,American Family Insurance,NA,NA,Madison,United States,53783,"6000 American Pkwy., Q21G",NA,Enterprise Solutions Architect
+Sandeep,Thakur,7275671000,sabdeep.thakur@raymondjames.com,NA,Raymond James,NA,NA,"St. Petersburg,",United States,33716,"880 Carillon Pkwy #32e, ",NA,Data Architect
+Pina,Barton,8472862500,pina.barton@sears.com,NA,Sears,NA,NA,Hoffman Estates,United States,60179,3333 Beverly Rd,NA,"Director, IT Infrastructure"
+Akmal,Hussain,4153962619,akmal.hussain@wellsfargo.com,NA,Wells Fargo,NA,NA,San Francisco,United States,94104,420 Montgomery St.,NA,Sr Data Architect
+Adnan ,Khan,2149997552,adnan.khan@moneygram.com,NA,MoneyGram International,NA,NA,Dallas,United States,75201,"2828 N Harwood St #15,",NA,Enterprise Architect 
+Naqib,Khan,9803353561,naqib.khan@bankofamerica.com,NA,Bank of America,NA,NA,Charlotte,United States,28202,"100 N Tryon St #170,",NA,DevOps Manager | Servant Leader 
+Dahesh ,Patel,7704338211,dahesh_patel@homedepot.com,NA,The Home Depot,NA,NA,Atlanta,United States,30339,2455 Paces Ferry Rd SE,NA,Enterprise Architect 
+Randall,Lowe,5122750072,randall.lowe@Q2ebanking.com,NA,Q2,NA,NA,Austin,United States,78750,"13785 Research Blvd., Suite 150",NA,"Director, IT Infrastructure and Operations"
+Alain,Petit,7034483747,alain.peit@capitalone.com,NA,Capital One,NA,NA,McLean,United States,22102,"1680 Capital One Dr,",NA,Enterprise Architect
+Kevin,Logan,7474442304,kevin.logan@charter.com,NA,Charter Communications,NA,NA,Stamford,United States,6903,312 Thornridge Dr,NA,IT Enterprise Architect
+Raj Kiran ,Nistala,2125518500,rknistala@idbbank.com,NA,IDB Bank,NA,NA,New York ,United States,10017,511 5th Avenue,NA,Enterprise Data Architect
+Anant ,Gowerdhan,3169433159,anant.gowerdhan@wellsfargo.com,NA,Wells Fargo,NA,NA,"San Francisco,",United States,94104,"420 Montgomery St,",NA,Sr. Data Strategy Architect
+Narasimhan ,Sampath,4157654800,narasimhan.sampath@bankofthewest.com,NA,Bank of the West,NA,NA,"San Francisco,",United States,94104,"180 Montgomery St,",NA,Senior Data Security Architect
+Jeff ,Smoley,3202027000,jeff.smoley@preferredcredit.com,NA,"Preferred Credit, Inc.",NA,NA,"Saint Cloud, ",United States,56301,"628 Roosevelt Rd, ",NA,Sr. Enterprise Architect
+Partha ,Sarathy,2122532010,partha.sarathy@td.com,NA,TD,NA,NA,New York ,United States,10003,"47 3rd Ave,",NA,"VP, Senior Developer/Data Architect/Technical Lead"
+Helena ,Choulga,2122706000,helena.choulga@jpmchase.com,NA,JPMorgan Chase & Co.,NA,NA,New York,United States,10017,"383 Madison Ave,",NA,Data Solutions Architect
+Sarang ,Kulkarni,4083767400,sarang.kulkarni@ebay.com,NA,eBay,NA,NA," San Jose,",United States,95125,"2025 Hamilton Ave,",NA,"Sr. Director of Engineering, Data Infrastructure"
+Bikramjit ,Singh,4792734000,bikramjit.singh@walmart.com,NA,Walmart,NA,NA,Bentonville,United States,72716,"702 SW 8th St, ",NA,"Sr. Architect (Database, Big Data,Cloud)"
+Bhanu ,Gandikota,4159082200,bgandikota@rakuten.com,NA,Rakuten.com,NA,NA,San Mateo,United States,94402,"800 Concar Dr, ",NA,Principal Database Architect
+Vadim ,Zingertal ,6509198100,Vadim.Zingertal@mobileiron.com,NA,MobileIron,NA,NA,"Mountain View, ",United States,"94043,","490 East Middlefield Road, ",NA,Senior Database Architect
+Neal ,Coddington ,6504661100,Neal.Coddington@genesys.com,NA,Genesys,NA,NA,"Daly City, ",United States,"94014,","2001 Junipero Serra Boulevard, ",NA,Data Architect 
+Mukesh ,Srivastava ,7043868912,Mukesh.Srivastava@bankofamerica.com,NA,Bank of America,NA,NA,"Charlotte, ",United States,"28262,","8551 US-29, ",NA,Data Architect 
+Joseph ,Crutsinger ,8009748800,Joseph.Crutsinger@zionsbancorporation.com,NA,Zions Bancorporation ,NA,NA,"Salt Lake City, ",United States,84133,One South Main Street,NA,Sr. Solutions Architect
+Suresh ,Punna ,6178973500,Suresh.Punna@MassMutual.com,NA,MassMutual,NA,NA,"Boston, ",United States,"02210,","470 Atlantic Ave, ",NA,Data Architect 
+Jayme ,Smrstick ,6174929300,Jayme.Smrstick@tr.com,NA,Thomson Reuters,NA,NA,"Cambridge, ",United States,"02140,","150 Cambridgepark Dr #2, ",NA,Data Architect 
+Mark ,Sims ,7704338211,Mark.Sims@homedepot.com,NA,The Home Depot,NA,NA,"Atlanta, ",United States,"30339,","2455 Paces Ferry Road, ",NA,Data Architect 
+Shashwat ,Lal ,6503855000,Shashwat.Lal@informatica.com,NA,Informatica,NA,NA,"Redwood City, ",United States,"94063,","100 Cardinal Way, ",NA,Senior Data Architect
+Tri ,Nguyen ,9165673900,Tri.Nguyen@sprint.com,NA,Sprint,NA,NA,"Shawnee Mission, ",United States,"66251,","6391 Sprint Pkwy, ",NA,Database Architect
+Jason,Evans,6147294000,jason.evans@alliancedata.com,NA,Alliance Data,NA,NA,Columbus,United States,43219,3075 Loyalty Circle,NA,Information Security Analyst
+Levi,Larsen,8474025000,levi.larsen@allstate.com,NA,Allstate,NA,NA,Northbrook,United States,60062,2775 Sanders Road,NA,Cloud Security Manager
+Dale,Souza,7039686300,dale.souza@americansystems.com,NA,AMERICAN SYSTEMS,NA,NA,Chantilly,United States,20151,"14151 Park Meadow Dr, Ste 500",NA,IT Security Analyst
+William,Atkins,6502788930,watkins@atarabio.com,NA,Atara Biotherapeutics,NA,NA,South San Francisco,United States,94080,"611 Gateway Blvd, Ste 900",NA,"Sr. IT Project Manager - IT Infrastructure, Security, and Cloud Technologies"
+Avinash,Singh,2052973000,avinash.singh@bbvausa.com,NA,BBVA,NA,NA,Birmingham,United States,35233,15 20th St S Ste 703,NA,Information Security Analyst
+Moses,Onoh,7038417800,moses.onoh@caci.com,NA,CACI International Inc,NA,NA,Arlington,United States,22201,1100 N Glebe St,NA,Cyber Security Analyst
+Carlos Ortiz,Rosa,8432662330,rosa@codelynx.com,NA,"CodeLynx, Inc.",NA,NA,North Charleston,United States,29418,4937 Fargo St,NA,Information Systems Security Manager (ISSM)
+Matt,Spiekerman,9896361000,matt.spiekerman@dow.com,NA,Dow,NA,NA,Midland,United States,48674,2211 H.H. Dow Way,NA,Senior IT Analyst (Cyber Security)
+Garrett,Cook,8477487559,gcook@g2.com,NA,G2,NA,NA,Chicago,United States,60606,100 S Wacker Dr. Suite 600,NA,"Manager, Information Security & IT"
+Joseph,Begumisa,8449463863,jbegumisa@gofundme.com,NA,GoFundMe,NA,NA,Redwood City,United States,94063,855 Jefferson Ave,NA,"Senior Manager, Cloud Security Engineering & Architecture"
+Paul,Sullivan,2148551000,paul.sullivan@goldmansachs.com,NA,Goldman Sachs,NA,NA,Dallas,United States,75201,2001 Ross Ave #1800,NA,Cloud Security Architect
+Derek,Brown,3035867771,derek.brown@inspirato.com,NA,Inspirato,NA,NA,Denver,United States,80202,1637 Wazee St,NA,Information Security Manager
+Ajish,Abraham,2122706000,ajish.abraham@jpmorgan.com,NA,JPMorgan Chase & Co.,NA,NA,Chicago,United States,60603,10 S Dearborn St 8th Floor,NA,"Product Manager, Network Security"
+Eliot,Austin,4137888411,eliot.austin@massmutual.com,NA,MassMutual,NA,NA,Springfield,United States,1111,1295 State St,NA,Information Risk and Cyber Security Program Manager
+Michael,Marshall,9727018377,mmarshall@meritenergy.com,NA,Merit Energy Company,NA,NA,Dallas,United States,75240,"13727 Noel Road Tower 2, Ste 1200",NA,Manager of Information Security
+Blair,Schumann,9205023009,bschumann@oshkoshcorp.com,NA,Oshkosh Corporation,NA,NA,Oshkosh,United States,54902,1917 Four Wheel Dr,NA,"Senior Engineer, Cyber Security"
+Matthew,Krawiec,8602596200,matthew.krawiec@polamer.us,NA,"Polamer Precision, Inc.",NA,NA,New Britain,United States,6053,105 Alton Brooks Way,NA,Information Technology & Information Security Manager
+Brian,Malandrone,4089643500,brian.malandrone@sanmina.com,NA,Sanmina,NA,NA,San Jose,United States,95134,2700 N 1st St,NA,Information Security Analyst
+Franklin,Fletcher,3056254171,franklin.fletcher@southernglazers.com,NA,Southern Glazer's Wine & Spirits,NA,NA,Miami,United States,33169,1600 NW 163rd St,NA,Information Security Risk Manager
+Tom,Musgrave,3238176600,tom.musgrave@technicolor.com,NA,Technicolor,NA,NA,Los Angeles,United States,90028,6040 Sunset Blvd,NA,Information Security Architect
+Bob,Mcvay,8042739777,bob.mcvay@hamiltonbeach.com,NA,Hamilton Beach Brands Inc.,NA,NA,Glen Allen,United States,23060,4421 Waterfront Dr,NA,IS Manager - DC
+Sneha,Malshetti,8185601000,sneha.malshetti@disney.com,NA,The Walt Disney Company,NA,NA,Burbank,United States,91521,500 S. Buena Vista St.,NA,Cloud Data and Security Engineer
+Jessica,Chang,8047470422,jessica_chang@carmax.com,NA,CarMax,NA,NA,Richmond,United States,23238,12800 Tuckahoe Creek Parkwy,NA,Cybersecurity Manager
+Chris,Cronin,4045823695,chris.cronin@alorica.com,NA,Alorica,NA,NA,Atlanta,United States,30339,800 Battery Ave SE,NA,Information Security Analyst
+Ross,Towbin,7247463304,ross.towbin@ansys.com,NA,Ansys,NA,NA,Canonsburg,United States,15317,2600 Ansys Dr,NA,Cyber Security Engineer
+Cong,Nguyen,7137509582,cnguyen@levistrauss.com,NA,Levi Strauss & Co.,NA,NA,Houston,United States,77007,2205 Washington Ave,NA,Information Security Analyst
+Ahmad,Sidani,7147233474,asidani@karmaautomotive.com,NA,Karma Automotive,NA,NA,Irvine,United States,92618,9950 Jeronimo Rd,NA,Senior Network Architect
+Beau,Anglado,8887999666,beau.anglado@zoom.com,NA,Zoom Video Communications,NA,NA,Denver,United States,80237,7601 Technology Way,NA,Security Analyst
+Howard,Fantroy,5034648000,howard.fantroy@portlandgeneral.com,NA,Portland General Electric Company,NA,NA,Portland,United States,97204,121 SW Salmon St,NA,Sr. IT Solutions Architect - Cyber Security
+Kurstin,Clark,9722723667,kurstin.clark@jeld-wen.com,NA,"JELD-WEN, Inc.",NA,NA,Klamath Falls,United States,97601,401 Harbor Isle Blvd,NA,Senior Information Security Analyst
+Gregory,Hunts,5036847000,gregory.hunts@gbrx.com,NA,"The Greenbrier Companies, Inc.",NA,NA,Lake Oswego,United States,97035,1 Centerpointe Dr,NA,IT Security Analyst
+Sarah,Chow,3239323200,sarah.chow@farmers.com,NA,Farmers Insurance,NA,NA,Woodland Hills,United States,91367,6301 Owensmouth Ave,NA,Information Security Analyst
+Mary,Carp,6263042000,mary.carp@averydennison.com,NA,Avery Dennison Corporation,NA,NA,Glendale,United States,91203,207 N Goode Ave,NA,"Manager, Security Engineering"
+Kota,Someya,6196962000,kota.someya@sempra.com,NA,Sempra Energy,NA,NA,San Diego,United States,92101,488 8th Ave,NA,Cyber Security Analyst
+Gurpreet,Singh,8188365000,gurpreet.singh@harborfreight.com,NA,Harbor Freight Tools,NA,NA,Calabasas,United States,91302,26541 Agoura Rd,NA,"Manager, Cyber Security"
+Navya,Lakshmana,6504934000,navya.lakshmana@varian.com,NA,Varian Medical Systems,NA,NA,Palo Alto,United States,94304,3100 Hansen Way,NA,Information Security Analyst
+Greg,Velarde,6504323200,greg.velarde@visa.com,NA,"visa, inc.",NA,NA,Foster City,United States,94404,900 Metro Center Blvd,NA,"Cybersecurity Analyst, Security Archeticture"
+Michael,Shin,2137413686,michael.shin@calif.aaa.com,NA,Automobile Club of Southern California,NA,NA,Los Angeles,United States,90007,2601 S Figueroa St,NA,Senior Information Security Analyst
+Pablo,Cuellar,5105720200,pablo.cuellar@lamresearch.com,NA,Lam Research,NA,NA,Fremont,United States,94538,4650 Cushing Pkwy,NA,Global Security Operations Manager
+Mahesh,Todkar,4087275555,mahesh.todkar@appliedmaterials.com,NA,Applied Materials,NA,NA,Santa Clara,United States,95054,3050 Bowers Ave,NA,"Senior Manager, Global Network Security"
+Alex,Boden,4086547400,alex.boden@svb.com,NA,SVB Financial Group,NA,NA,Santa Clara,United States,95054,3003 Tasman Dr,NA,Principal Security Analyst / Engineer
+David,McQuarrie,6508571501,david.mcquarrie@hp.com,NA,HP,NA,NA," San Jose, ",United States,94304,"1501 Page Mill Rd,",NA, Global Head of Customer Support 
+Mark,Walker,6508461000,mwalker@tibco.com,NA,TIBCO,NA,NA,Palo Alto,United States,94304,3307 Hillview Ave,NA, Director Customer Support 
+Karyn,Froseth,2699612000,karyn.froseth@kellogg.com,NA,Kellogg Company,NA,NA,Battle Creek ,United States,49016,1 Kellogg Sq Po Box 3599,NA," Sr. Director, Global Sales Customer Engagement & Planning "
+Kushal,Shah, 2019426254,kushal.shah@wns.com,NA,"WNS Global Services
+",NA,NA,Jersey City,United States,7302, 15 Exchange Place # 310,NA," Director, Client Services (Research & Analytics) "
+Patricia,Moroney,2163366756,patricia.moroney@alexmann.com,NA,Alexander Mann Solutions,NA,NA,Cleveland,United States,44114, 1301 East 9th Street # 1200,NA, Global Head of Client Services 
+Chris,Vetrano,8558659553,cvetrano@lyft.com,NA,Lyft,NA,NA,Nashville,United States,37201,150 2nd Ave N 4th floor,NA," Head of Partner & Customer Engagement | Bikes, Scooters & Transit "
+Christopher,Remington,6507777600,Christopher.Remington@newrelic.com,NA,New Relic,NA,NA,"San Francisco,",United States,94105,"188 Spear St #1000,",NA, Senior Customer Success Director 
+Brian,Cox,8135861913,Brian.Cox@roberthalf.com,NA,Robert Half,NA,NA,Tampa,United States,33607,4221 W Boy Scout Blvd Suite 450,NA, Client Services Director 
+Eric,Hofer,8178701844,Eric.Hofer@bhnetwork.com,NA,Blackhawk Network,NA,NA,Fort Worth,United States,76102,307 W 7th St Ste 300,NA," Sr. Director, Client Services "
+Rei,Rivera,8585090419,Rei.Rivera@brighthorizons.com,NA,Bright Horizons,NA,NA,San Diego,United States,92130,3720 Arroyo Sorrento Rd,NA," Director of Client Services, EdAssist "
+Guerra,Thomas,2109388000,Guerra.Thomas@heb.com,NA,H-E-B,NA,NA,San Antonio,United States,78204,646 S Flores St,NA," HEB Director of Pharmacy Operations: RxOC, Contact Center, & Special Projects "
+Sheldon,Erb,2153099388,SErb@greystar.com,NA,Greystar,NA,NA,Philadelphia,United States,19106,325 Chestnut St # 330,NA, Director Of Client Services 
+Erin,NewnamRushman,7348648018,Erin.Rushman@perficient.com,NA,Perficient,NA,NA,Ann Arbor,United States,48103,3027 Miller Rd,NA," Director of Delivery, Client Services "
+Megan,Wagstaffe,2125729945,megan.wagstaffe@furla.com,NA,FURLA,NA,NA,New York,United States,10022,645 5th Ave,NA, Ecommerce Operations + Head of USA Customer Service 
+Carlos,Restrepo,6782883100,carlos_restrepo@vwr.com,NA,"VWR, part of Avantor",NA,NA,Suwanee,United States,30024,1050 Satellite Blvd,NA, Director Of Customer Service 
+Jarvous,Freeman,9543826840,jarvous.freeman@kaplan.com,NA,Kaplan Higher Education,NA,NA,Fort Lauderdale,United States,33309,1515 W Cypress Creek Rd,NA, Director of Contact Center Solutions 
+Ron,Mozalewski,7087998000,Ron.Mozalewski@advocatehealth.com,NA,Advocate Health Care,NA,NA,Downers Grove,United States,60515,3075 Highland Pkwy,NA," Executive Director, Contact Center "
+Asa,Blood,6502530000,asa.blood@google.com,NA,Google LLC,NA,NA,Mountain View,United States,94043,1600 Amphitheatre Parkway,NA, Head Of Customer Service 
+Ron,Jordan,9529361300,ron.jordan@unitedhealthgroup.com,NA,United Healthcare Group,NA,NA,Minnetonka,United States,55343,9900 Bren Road East,NA, Director of Customer Service 
+Jason,McCartney,8188476180,jMcCartney@psionline.com,NA,Psi Services Llc,NA,NA,Glendale,United States,91203,"611 N. Brand Blvd., 10th Fl.",NA," Director, Client Services "
+Tamra,Raess,8587920711,Tamra.Raess@amnhealthcare.com,NA,Amn Healthcare,NA,NA,San Diego,United States,92130,12400 High Bluff Dr,NA, Regional Director of Client Services 
+Melissa,Tirado,9738200400,Melissa.Tirado@audible.com,NA,"Audible, Inc.",NA,NA,"Newark,",United States,7102,"1 Washington St, ",NA," Director, Customer Engagement Audible Canada "
+Ernie,Scelia,8584584410,EScelia@ayahealthcare.com,NA,Aya Healthcare,NA,NA,San Diego,United States,92121,5930 Cornerstone Ct W Ste 300,NA, Regional Director - Client Services 
+Mike,Gonzalez,9494726700,Mike.Gonzalez@bdsmktg.com,NA,"Bds Marketing, Llc.",NA,NA,"Irvine,",United States,92618,"10 Holland,",NA," Director, Client Services "
+Bernard,Antoine,2136133333,Bernard.Antoine@cbre.com,NA,CBRE,NA,NA,Los Angeles,United States,90071,"400 S. Hope Street, 25th Floor",NA, Director Client Care & Account Services 
+MohasinZaki,Syed,3023233140,Mohasin.Syed@citigroup.com,NA,Citi,NA,NA,New Castle,United States,19720,One Penn's Way,NA, Head of Conversational Artificial Intelligence and Customer Care Platforms 
+Peg,Marty,4014567000,Peg.Marty@citizensbank.com,NA,Citizens Bank,NA,NA,Providence,United States,2903,1 Citizens Plz Ste 1,NA, Head of Customer Service Operations 
+Ajith,Ittan,9197607753,Ajith.Ittan@hcltech.com,NA,HCL Technologies,NA,NA,"Sunnyvale, ",United States,94085,330 Potrero Avenue ,NA, Client Services Director 
+Benjamin,Lyon,2485765741,Benjamin.Lyon@fcagroup.com,NA,FCA Fiat Chrysler Automobiles,NA,NA,"Auburn Hills,",United States,48326,1000 Chrysler Drive ,NA, Head of Customer Experience 
+ArunRon,Jayaraman,4803083000,Arun.Jayaraman@blueyonder.com,NA,Blue Yonder,NA,NA,Scottsdale,United States,85254,"15059 N Scottsdale Rd, Ste 400",NA," Director, Client Delivery Services "
+Amy,Cheng,4153973333,amy.cheng@macysjobs.com,NA,Macy's,NA,NA,San Francisco,United States,94102,170 O'Farrell St,NA," Director, Customer Experience Strategy "
+Chris,Hulderson, 6504294348,chris.hulderson@purestorage.com,NA,Pure Storage,NA,NA,Lehi,United States,84043,3400 Ashton Blvd #500,NA,Director Customer Support
+Jeremy,Munn,4154894940,"jeremy.munn@docusign.com
+",NA,DocuSign,NA,NA,San Francisco,United States,94105,"221 Main St, Ste 1550",NA,"Sr. Director, Customer Success & Support - Supportability, Self-Service & Tools"
+Jedadiah,Combs,9549212400,Jedadiah.Combs@resultstel.com,NA,THE RESULTS COMPANIES LLC,NA,NA,Fort Lauderdale,United States,33301,100 Ne 3rd Ave,NA,Director Customer Experience
+Jack,Feingold,6307529874,Jack.Feingold@sap.com,NA,SAP Customer Experience,NA,NA,"Palo Alto,",United States,94304," 3410 Hillview Ave,",NA,"Sr. Director, Customer Experience Practice Lead - Financial Services"
+Charlotte,Tagliaferro,8476346700,ctagliaferro@zebra.com,NA,"Zebra Technologies
+",NA,NA,Lincolnshire,United States,60069,3 OVERLOOK POINT,NA,Director NA Service Renewals & Customer Experience
+Craig,Baxter,7139188800,cbaxter@bmc.com,NA,BMC Software,NA,NA,Houston,United States,77042," 2103 CityWest Blvd,",NA,Director - Customer Success
+Paul,Murasko,6176798500,paul.murasko@ipsen.com,NA,Ipsen,NA,NA,Cambridge,United States,2142,650 E Kendall St,NA,"Sr. Director, Head of Digital Customer Interaction for North America"
+Crystal,Krudis,5168773000,ckrudis@adelphi.edu,NA,Adelphi University,NA,NA,Garden City,United States,11530,"Levermore Hall, Room 303 1 South Avenue",NA,Director of Counseling and Customer Service
+Jose,Attar,3058713655,jattar@airbus.com,NA,Airbus,NA,NA,Miami Springs,United States,33166,4355 NW 36th St,NA,Sales & Customer Support Director - Latin America & Caribean
+Nick,Badraun,2155838078,nick_badraun@comcast.com,NA,Comcast,NA,NA,Philadelphia,United States,19103,1701 John F Kennedy Blvd,NA,Senior Director of Customer Care
+Eimear,Ward,4257051900,eimear.ward@microsoft.com,NA,Microsoft,NA,NA,Bellevue,United States,98004,700 Bellevue Way NE #22,NA,Director Of Customer Service and Support
+Terry,Cetera,2013935000,terri.a.cetera@questdiagnostics.com,NA,Quest Diagnostics Incorporated,NA,NA,Lyndhurst,United States,7071,1290 Wall St W,NA,"Director, IT Security Customer Service"
+Kyle,Fox,4253835356,kyle.fox9@t-mobile.com,NA,T-Mobile,NA,NA,Bellevue,United States,98006,12920 South East 38th Street,NA,"Director, Care Frontline Readiness"
+Priya,Darouian,2125464000,PDarouian@bms.com,NA,Bristol-Myers Squibb,NA,NA,New York,United States,10154,345 Park Ave,NA,"Director, Worldwide Medical Capabilities, Customer Experience"
+Melissa,Cross,6159323000,MCross@changehealthcare.com,NA,Change Healthcare,NA,NA,Nashville,United States,37214,3055 Lebanon Pike,NA,"Director, Client Services"
+Michael,Keinan,3142127000,MKeinan@amdocs.com,NA,Amdocs,NA,NA,Chesterfield,United States,63017,1390 Timberlake Manor Parkway,NA,Senior Director of Customer Engagement
+Lynn,Stockmaster,5852551209,lynn.stockmaster@centurylink.com,NA,CenturyLink,NA,NA,Broomfield,United States,80021,1025 Eldorado Boulevard ,NA,Director Customer Care
+GIAN,FANTINI,5137656000,GIAN.FANTINI@luxottica.com,NA,Luxottica,NA,NA,Mason,United States,45040,4000 Luxottica Pl,NA,"Group Consumers, Retail and Vision Plans Contact Centers Director"
+Ryan,Tansey,9782509800,RTansey@kronos.com,NA,Kronos,NA,NA,Chelmsford,United States,1824,297 Billerica Rd,NA,Director Of Support Services
+Joel,Bauman,4806271800,JBauman@axway.com,NA,Axway,NA,NA,Phoenix,United States,85054,6811 E Mayo Boulevard,NA,Client Services Program Director
+Travis ,Hall,6032249991,travis.hall@nhdist.com,NA,New Hampshire Distributors,NA,NA,Concord,United States,3302,65 Regional Dr,NA, Information Systems Manager 
+Brandon ,Waters,2054244284,brandon.waters@drinkmilos.com,NA,Milo's Tea Company,NA,NA,Bessemer,United States,35022,"3112 Dublin Lane, ",NA, Senior Information Technology Manager 
+Lisa ,Ruccolo,4043505850,lisa.ruccolo@inlandseafood.com,NA,Inland Seafood,NA,NA,Atlanta,United States,30084,"1651 Montreal Cir, ",NA, Accounting Manager 
+Blake ,Wester,6309328100,blake.wester@flavorchem.com,NA,Flavorchem Corporation,NA,NA, Downers Grove,United States,60515,"1525 Brook Dr, ",NA, Technology Manager 
+Guadalupe ,Sahagun,9098802305,guadalupe.sahagun@adams-brooks.com,NA,Adams & Brooks,NA,NA,"San Bernardino,",United States,92427,"PO Box 9940, ",NA, Controller 
+Takashi,Ikushima,3106043200,takashi.ikushima@afcsushi.com,NA,Advanced Fresh Concepts Franchise Corporation,NA,NA,Compton,United States,90220,19205 S Laurel Park Rd,NA, IT Manager 
+Christie,Williams,5126009893,christie.williams@amplifysnackbrands.com,NA,Amplify Snack Brands,NA,NA,Austin,United States,78701,"500 West Fifth Street
+Suite 1350",NA, Accounting Manager 
+Dunia,Salguero,4699305700,dsalguero@avocadosfrommexico.com,NA,Avocados from Mexico,NA,NA,Irving,United States,75039,"222 West Las Colinas Boulevard
+Suite 850E",NA, Accounting Manager 
+Gary,Dean,2059454893,gdean@bhambud.com,NA,Birmingham Budweiser,NA,NA,Birmingham,United States,35211,141 Industrial Drive,NA, IT Manager 
+Sean,Wang,7186286868,seanw@wontonfood.com,NA,Wonton Food,NA,NA,Brooklyn,United States,11206,222 Moore St #220,NA, IT Manager 
+Melinda,Saldaña,8313758673,melinda@sweetearthfoods.com,NA,Sweet Earth Natural Foods,NA,NA,Moss Landing,United States,95039,3080 Hilltop Rd,NA, Accounting / GL Manager 
+Andrew,Carlton,2026958115,andrew.carlton@cava.com,NA,CAVA,NA,NA,"Washington,",United States,20016,"4237 Wisconsin Avenue Nw
+  
+",NA, Accounting Manager 
+Ross,Mitchell,6622547200,rossm@catfish.com,NA,America's Catch,NA,NA,"Itta Bena,  ",United States,38941,"46623 County Road 523
+
+",NA, IS / IT Manager 
+Jeff,Ulrich,2134275566,jeff.ulrich@extrudedpetfood.com,NA,C. J. Foods,NA,NA,Los Angeles,United States,90036,"5700 Wilshire Boulevard # 540  
+",NA, Financial Controller 
+Dennis,Kireyeu,9208632123,dennis.kireyeu@belgioioso.com,NA,BelGioioso,NA,NA,Green Bay,United States,54311,4200 Main St,NA, Sr. Information Technology Manager 
+Gretchen,Dinan,9785564500,gdinan@hanskissle.com,NA,Hans Kissle,NA,NA,Haverhill,United States,1832,"9 Creek Brook Dr,",NA, Accounting Manager 
+Brent,Bishop,2693499711,bbishop@kalsec.com,NA,Kalsec,NA,NA,Kalamazoo,United States,49006,3713 W Main St,NA, Manager of IS Technical Services 
+Sonja,Matson,8013284067,sonja.matson@kodiakcakes.com,NA,Kodiak Cakes,NA,NA,"Park City,",United States,84098,"3247 Santa Fe Road,",NA, Accounting Manager 
+Cathy,Obremski,6146521111,cobremski@mifiusa.com,NA,"Mitsubishi International Food Ingredients, Inc.",NA,NA,Columbus,United States,43016,"5080 Tuttle Crossing Boulevard , Suite 400,",NA, Tax and Corporate Accounting Manager 
+Kelly,Lakenburger,5732642677,klakenburger@semomilling.com,NA,SEMO Milling,NA,NA,"Scott City,",United States,63780,"261 River Rd,",NA, Controller 
+Les,Huebner,7152236388,les.huebner@abbyland.com,NA,Abbyland Foods,NA,NA,Curtiss,United States,54422,330 Plaza Dr,NA, Accounting Manager 
+Brian,Mcallister,7178386356,brian.mcallister@askfoods.com,NA,ASK Foods,NA,NA, Palmyra,United States,17078,77 N Hetrick Ave,NA, Controller 
+Michael,Sass,5034278900,michael.sass@bridgetownnaturalfoods.com,NA,Bridgetown Natural Foods,NA,NA,Portland,United States,97266,11601 SE Foster Rd,NA, Senior Information Systems Manager 
+Narine,Chalumyan,6269613399,narine.chalumyan@caciqueinc.com,NA,Cacique,NA,NA,City of Industry,United States,91746," 14940 Proctor Ave, ",NA, Financial Planning & Analysis Manager 
+Christina,Taylor,3867344634,christina.taylor@countrypure.com,NA,Country Pure Foods,NA,NA,DeLand,United States,32720, 1915 N Woodland Blvd,NA, IT Technical Support Manager 
+Jason,Freeman,2073386280,jason.freeman@ducktrap.com,NA,Ducktrap River of Maine,NA,NA,Belfast,United States,4915,57 Little River Dr,NA, Information Technology Manager 
+Stacy,Cox,7813525450,stacy.cox@entrinsichealth.com,NA,Entrinsic Health Solutions,NA,NA, Norwood,United States,2062,100 River Ridge Dr #206,NA, Accounting Manager 
+Debbie,Haney,5032248624,dhaney@columbiagrain.com,NA,Columbia Grain,NA,NA,Portland,United States,97201,1300 Sw 5th Avenue # 2929,NA, Grain Accounting Manager 
+Darren,Relford,8655887641,drelford@cherokeedistributing.com,NA,Cherokee Distributing Company,NA,NA,Knoxville,United States,37919,200 Miller Main Circle,NA, Information Technology Manager 
+Glenn,Ushijima,5108989555,gushijima@berkeleybowl.com,NA,Berkeley Bowl Marketplace,NA,NA,Berkeley,United States,94710,920 Heinz Avenue,NA, Financial Reporting Manager 
+Rayenell,Mcglawn,5028391122,rmcglawn@algoodfood.com,NA,Algood Food Co,NA,NA,Lawrenceburg,United States,40342,300 Factory Street,NA," Manager, Information Systems "
+Quentin,Pittman,2157355200,qpittman@frankfordcandy.com,NA,Frankford Candy,NA,NA,Philadelphia,United States,19114,9300 Ashton Road,NA, Customer Accounting Manager 
+James,Wood,5032577687,jwood@harrysfresh.com,NA,Harry's Fresh Foods,NA,NA,Portland,United States,97230,17711 Ne Riverside Parkway,NA, IT Manager 
+Glenn,Boivin,7819333115,gboivin@kayemfoods.com,NA,Kayem,NA,NA,Chelsea,United States,2150,75 Arlington Street,NA, Manager IT Operations 
+Carol,Hesse,2173519182,chesse@moonstruckchocolate.com,NA,Moonstruck Chocolate Co.,NA,NA,Champaign,United States,61821,1733 West Kirby Avenue,NA, Accounting Manager 
+Salvatore,Amato,8564470040,samato@santasweets.com,NA,Santa Sweets,NA,NA,Cedarville,United States,8311,20 Duffield Avenue,NA, IT Manager 
+Robert,Mcmanus,9043425674,mcmanus@spiceandtea.com,NA,The Spice & Tea Exchange,NA,NA,Augustine,United States,32084,167 San Marco Avenue Saint,NA, IT Systems Manager 
+Sarah-Antonia,Tkalec,5616387864,sarah.tkalec@franklinfoods.com,NA,Franklin Foods,NA,NA,Delray Beach,United States,33484,6274 Linton Blvd UNIT 102,NA, Finance Manager 
+Bethany,Bellmyer,5208368228,bethany.bellmyer@arizonagrain.com,NA,Arizona Grain,NA,NA,Casa Grande,United States,85122,601 E Main Ave,NA, Controller 
+Arthur,Mercier,9786831414,arthur.mercier@bakenjoy.com,NA,Bake'n Joy Foods,NA,NA,"North Andover,",United States,1845,351 Willow St,NA, Cost Accounting and Inventory Control Manager 
+Natalie,Witmyer,8636653615,natalie.witmyer@bernielittledistributors,NA,Bernie Little,NA,NA,Lakeland,United States,33801,4105 Maine Ave,NA, Controller 
+Catherine,Collins,2318612141,catherine.collins@cherrycentral.com,NA,Cherry Central,NA,NA,Shelby,United States,49455,"168 Lincoln St,",NA, Plant Controller 
+Gordon,Zavilla,3026841000,gordon.zavilla@dogfish.com,NA,Dogfish Head Craft Brewery,NA,NA,Milton,United States,19968,6 Cannery Village,NA, Engineering Manager 
+Christy,Daledovich,6606463600,christy.daledovich@menumakerfoods.com,NA,Graves Menu Maker Foods,NA,NA,Chillicothe,United States,64601,725 Industrial Rd,NA, Controller 
+Michael,Davis,6202756161,mdavis@gccoop.com,NA,Garden City Co-op,NA,NA, Garden City,United States,67846,106 N 6th St,NA, IT Manager 
+Jim,Blaha,5416878000,jim.blaha@grainmillers.com,NA,Grain Millers,NA,NA,Eugene,United States,97402,315 Madison St,NA, Enterprise IT Systems Manager 
+Bruce,Mize,8002523557,bruce.mize@ilovelindsay.com,NA,Bell-Carter Foods,NA,NA,Walnut Creek,United States,94596,590 Ygnacio Valley Rd,NA, Commercial Finance Manager 
+Wesley,Randall,2252728153,wrandall@capitolcityproduce.com,NA,Capitol City Produce,NA,NA,Baton Rouge,United States,70816,16550 Commercial Ave,NA, Accounting Manager 
+Jessica,Stopski,8002110600,jessicastopski@faribaultfoods.com,NA,Faribault Foods,NA,NA,Faribault,United States,55021," 3401 Park Ave NW,",NA, Accounting Manager 
+Rieta,Boone,7194723113,rieta.boone@foodmaven.com,NA,FoodMaven,NA,NA,Colorado Springs,United States,80903,"3 S Tejon St, Ste 400",NA, Accounting Manager 
+Karen,Luo,8882120601,kluo@questnutrition.com,NA,Quest Nutrition,NA,NA,El Segundo,United States,90245,777 S Aviation Blvd,NA, Accounting Manager 
+Victoria,Munson,8007933897,victoria.munson@sweetstreet.com,NA,Sweet Street Desserts,NA,NA,Reading,United States,19605,722 Hiesters Ln,NA, Accounting Manager 
+Lisa,Pence Weiman,5126009893,lisa.weiman@amplifysnackbrands.com,NA,Amplify Snack Brands,NA,NA,Austin,United States,78701,500 W 5th St #900,NA, Regional business manager 
+Sandy,Rasche,8128671444,sandy.rasche@ameriqual.com,NA,AmeriQual Group,NA,NA,Evansville,United States,47725,"8200 Highway 41 N,",NA, Finance Manager 
+Brian,Holmes,3308544551,brian.holmes@avalonfoods.com,NA,Avalon Foodservice,NA,NA,Canal Fulton,United States,44614,PO Box 536,NA, Accounting Manager 
+Betty,Steinfeld,4196847177,betty.steinfield@crystalrock.com,NA,"Crystal Rock - Water, Coffee & Office Supplies",NA,NA,Sandusky,United States,44870,710 Crystal Rock Rd,NA, Accounting Manager 
+Zugehily,Nieves,3367258321,zugehily.nieves@deweys.com,NA,Dewey's Bakery,NA,NA,Winston-Salem,United States,27103,262 S Stratford Rd,NA, Accounting Manager 
+Brent,Harris,5124354545,brentharris@austinfcu.com,NA,United Heritage Credit Union,NA,NA,Austin,United States,78741,Woodward Street,NA,IT Manager
+Brian,Strain,2128189090,briannestrain@countrybank.com,NA,Country Bank,NA,NA,Worcester,United States,1609,Park Avenue,NA,IT Manager
+Carlos,Mendez,9567232265,carlos@falconbank.com,NA,Falcon International Bank,NA,NA,San Antonio,United States,78258,Stone Oak Parkway,NA,IT Manager
+John,Volpe,2128427000,cvolpe@friedmanllp.com,NA,Friedman Llp,NA,NA,New York,United States,10019,Broadway,NA,IT Manager
+Dennis,Rodriguez,2129981212,dennis.rodriguez@nyu.edu,NA,New York University,NA,NA,New York,United States,10012,70 Washington Sq South,NA,IT Manager
+Derwin,Lee,8645605620,dlee@spartanburgregional.com,NA,Spartanburg Regional Healthcare System,NA,NA,Spartanburg,United States,29303,686 Jeff Davis Dr,NA,IT Manager
+Elaine,Shi,3124190400,elaine.shi@blackstone.com,NA,Blackstone Group,NA,NA,Chicago,United States,60604,"332 S Michigan Ave #710,",NA,IT Manager
+Jason,Mullins,5024540987,jason.mullins@lnfcu.com,NA,L&N Federal Credit Union,NA,NA,Louisville,United States,40202,West Chestnut Street,NA,IT Manager
+John,Shelko,8047395149,johnieshelko@sonabank.com,NA,Sonabank,NA,NA,Midlothian,United States,23112,Hull Street Road,NA,IT Manager
+Jeff,Weaver,7175692900,jweaver@troutcpa.com,NA,"Trout, Ebersole & Groff Llp",NA,NA,Lancaster,United States,17601,Oregon Pike,NA,IT Manager
+Lorri,Cavell,9406651711,lorricavell@firststatebank.com,NA,First State Bank,NA,NA,Mesquite,United States,75149,Military Parkway,NA,IT Manager
+Brian,Gordon,5185617330,brian.gordon@monaghanmed.com,NA,Monaghan Medical Corporation,NA,NA,Plattsburgh,United States,12901,"5 Latour Ave # 1600,",NA,Information Technology Manager
+Stefan,Hasan,5205451234,stefan.hasan@syncardia.com,NA,"Syncardia Systems, Llc",NA,NA,Tucson,United States,85713,1992 E Silverlake Rd,NA,Senior Information Technology Manager
+Robert,Norman,7329051100,robert.norman@sswhitedental.com,NA,Ss White Dental,NA,NA,Lakewood,United States,8701,1145 Towbin Ave,NA,Information Technology Manager
+Daniel,Bauer,5108682100,dbauer@gameready.com,NA,Game Ready,NA,NA,Concord,United States,94520,"1800 Sutter St, Ste 500",NA,Information Technology Manager
+Daniel,Skoy,8015655200,daniel.skoy@edwards.com,NA,Edwards Lifesciences,NA,NA,Draper,United States,84020,12050 Lone Peak Pkwy,NA,Information Technology Manager
+Alejandro,Alvarez,3055380110,alejandro.alvarez@cosmofrance.net,NA,Cosmofrance Inc.,NA,NA,Miami,United States,33132,1444 Biscayne Blvd Ste 218,NA,Information Technology Manager
+Peter,Gallick,7632055553,peter.gallick@resolutionmedical.com,NA,Resolution Medical,NA,NA,Fridley,United States,55421,42 Northern Stacks Dr Suite 200,NA,"Manager, Information Technology"
+Nicolas,Arroyo,7142824800,nicolas.arroyo@nobelbiocare.com,NA,Nobel Biocare,NA,NA,Yorba Linda,United States,92887,22715 Savi Ranch Pkwy,NA,Information Technology Manager
+Mauricio,Salazar,9254851100,mauricio.salazar@phoenixtech.com,NA,Phoenix Technology Group,NA,NA,Pleasanton,United States,94588,6630 Owens Dr,NA,Information Technology Manager
+Jim,Brownrigg,8017366354,jim.brownrigg@biofiredx.com,NA,"Biofire Diagnostics, Llc",NA,NA,Salt Lake City,United States,84108,"515 Colorow Dr,",NA,Manager of Information Technology
+David,Lee,6174041001,david.lee@lumicell.com,NA,Lumicell,NA,NA,Newton,United States,2458,275 Washington St #200,NA,IT Manager
+Stephen,Wilhelm,4407174000,swilhelm@appliedmedical.net,NA,"Applied Medical Technology, Inc. (Amt)",NA,NA,Brecksville,United States,44141,"8006 Katherine Blvd,",NA,Information Technology Manager
+Jason,Hopkins,6158077700,jason.hopkins@medtronic.com,NA,Medtronic,NA,NA,Franklin,United States,37067,830 Crescent Centre Dr,NA,Information Technology Manager
+Paul,Gilbert,2246676100,paul.gilbert@abbott.com,NA,Abbott,NA,NA,Lake Bluff,United States,60044,"100 Abbott Park Rd,",NA,Information Technology Manager
+Vilmos,Kovacs,7654631633,vilmos.kovacs@medinstitute.com,NA,Med Institute,NA,NA,West Lafayette,United States,47906,1330 Win Hentschel Blvd,NA,IT Manager
+Jeff,Jones,6123798854,jeff.jones@bio-techne.com,NA,Bio-Techne,NA,NA,Minneapolis,United States,55413,614 Mckinley Pl N E,NA,"Manager, Information Technology"
+Linda,Sizemore,7703684700,linda.sizemore@grahamfield.com,NA,"Gf Health Products, Inc.",NA,NA,Atlanta,United States,30340,7012 Best Friend Rd,NA,Information Technology Manager
+Dan,Costa,5085883100,dan.costa@acesurgical.com,NA,"Ace Surgical Supply Co., Inc.",NA,NA,Brockton,United States,2301,1034 Pearl St,NA,Manager Information Technology
+Nasir,Imam,4157654800,nasir.imam@bankofthewest.com,NA,Bank Of The West,NA,NA,San Francisco,United States,94104,180 Montgomery St,NA,Information Technology Manager
+Ivan,Matthews,6184396363,ivan.matthews@legencebank.com,NA,Legence Bank,NA,NA,Benton,United States,62812,605 W Main St,NA,Information Technology Manager
+Steven,Garcia,3618884451,steven.garcia@valuebanktexas.com,NA,Valuebank Texas,NA,NA,Corpus Christi,United States,78408,3649 Leopard St,NA,Information Technology Manager
+Shannon,Finigan,9038852187,shannon.finigan@alliancebank.com,NA,Alliance Bank,NA,NA,Sulphur Springs,United States,75482,1226 S Broadway,NA,Information Technology Manager
+Jaime,Restrepo,8504156870,jaime.restrepo@onefloridabank.com,NA,One Florida Bank,NA,NA,Chipley,United States,32428,"1385 Main St,",NA,Information Technology Manager
+Vinoth,Sridharan,9803353561,vinoth.sridharan@bankofamerica.com,NA,Bank Of America,NA,NA,Charlotte,United States,28202,100 N Tryon St #170,NA,Senior Information Technology Manager
+Kamran,Rafi,2485765741,kamran.rafi@fcagroup.com,NA,Fca Fiat Chrysler Automobiles,NA,NA,Auburn Hills,United States,48326,"1000 Chrysler Dr,",NA,Information Technology Manager
+Vincent,Ryan,9376554000,vryan@alkermes.com,NA,Alkermes,NA,NA,Wilmington,United States,45177,265 Olinger Circle,NA,IT Project Manager
+Brittany,Stephens,8602913600,bstephens@bankatunited.com,NA,"United Financial Bancorp, Inc.",NA,NA,Hartford,United States,6103,225 Asylum St,NA,IT Support Services Manager
+Lisa,Sample,7753272700,lisa.sample@employers.com,NA,"Employers Holdings, Inc.",NA,NA,Reno,United States,89521,10375 Professional Circle,NA,Senior IT Project Manager
+Albert,White,2129021000,albert.white@goldmansachs.com,NA,Goldman Sachs,NA,NA,New York,United States,10282,200 West St,NA,Customer Service Manager
+Timothy,Owens,5025801000,timothy.owens@humana.com,NA,Humana,NA,NA,Louisville,United States,40202,500 W Main St,NA,IT Manager
+Erick,Wegerer,3125442000,erick.wegerer@boeing.com,NA,The Boeing Company,NA,NA,Chicago,United States,60606,100 N Riverside Plaza,NA,Senior Manager of Information Technology
+Moni,Mathew,3124924203,monimathew@xpo.com,NA,"Xpo Logistics, Inc.",NA,NA,Greenwich,United States,6831,5 American Lane,NA,Information Technology Engineering Manager
+Richard,Wintgens,6147161000,richard.wintgens@aep.com,NA,American Electric Power,NA,NA,Columbus,United States,43215,1 Riverside Plaza,NA,IT Manager
+Brian,Miller,7609621630,brian.miller@victorvillemotors.com,NA,Victorville Motors,NA,NA,Victorville,United States,92394,14617 Civic Dr,NA,IT Manager
+Tony,Soltero,9164802800,tony.soltero@niello.com,NA,The Niello Company,NA,NA,Sacramento,United States,95821,3210 Auburn Blvd,NA,Business Manager
+Joe,O'Brien,2123760300,jobrien@topps.com,NA,The Topps Company,NA,NA,New York,United States,10004,1 Whitehall St,NA,Finance Manager
+David,Hoschek,5128527000,david.hoschek@shoplc.com,NA,Shop Lc,NA,NA,Austin,United States,78728,"100 Michael Angelo Way, Ste 400D",NA,Information Technology Support Manager
+Jordyn,Hunt,8435254130,jhunt@danvaden.com,NA,Vaden Automotive Group,NA,NA,Beaufort,United States,29906,103 Robert Smalls Pkwy,NA,Finance Manager
+Trent,Schuette,4143768438,trent.schuette@ewaldauto.com,NA,Ewald Automotive Group,NA,NA,Franklin,United States,53132,Franklin,NA,Finance Manager
+Lisa,Carpenter,3015306500,lisa.carpenter@goodwillhouston.org,NA,Goodwill Industries Of Houston,NA,NA,Rockville,United States,20855,15810 Indianola Dr,NA,Accounting Manager
+Rachel,Jackson,4158373251,rachel@outdoorsy.com,NA,Outdoorsy,NA,NA,San Francisco,United States,94103,1475 Folsom St,NA,Accounting Manager
+Mitch,West,8582009540,mwest@calibamboo.com,NA,Cali Bamboo,NA,NA,San Diego,United States,92121,6675 Mesa Ridge Road #100,NA,Manager of Technology
+Roger,Metras,6038235545,rmetras@garnethill.com,NA,Garnet Hill,NA,NA,Franconia,United States,3580,231 Main St,NA,Finance Manager
+Jim,Abeyta,6087849600,jabeyta@dahlauto.com,NA,Dahl Automotive,NA,NA,La Crosse,United States,54601,712 4th St S,NA,Business Manager
+Derek,Lechner,4148317000,dlechner@arenaamericas.com,NA,Arena Americas,NA,NA,Oak Creek,United States,53154,10861 S Howell Ave,NA,IT Manager
+Elias,Lumpkin,8129344140,elumpkin@gillmanauto.com,NA,Gillman Automotive Group,NA,NA,Batesville,United States,47006,271 State Road 129 South,NA,Finance Manager
+Michael,Gallivan,7816425900,michael.gallivan@care.com,NA,Care.Com,NA,NA,Waltham,United States,2451,"77 4th Ave, Ste 5",NA,Accounting Manager
+Erin,Esteban,6694004665,erin@dgdg.com,NA,Del Grande Dealer Group,NA,NA,San Jose,United States,95136,911-C Capitol Expressway Auto Mall,NA,Business Manager
+Raffi,Bederian,3109758528,rbederian@dollarshaveclub.com,NA,Dollar Shave Club,NA,NA,Marina Del Rey,United States,90292,13335 Maxella Ave,NA,Manager of Information Technology Operations
+Harry,Mercado,6466582255,hmercado@carlislecollection.com,NA,Carlisle Etcetera LLC,NA,NA,New York,United States,10022,16 East 52nd Street,NA,Accounts Payable Manager
+Alekzandra,Huttemann,3157828300,ahuttemann@davidsonautonet.com,NA,Davidson Automotive Group,NA,NA,Watertown,United States,13601,18579 US-11,NA,Finance Manager
+Jonathan,Sagner,9198586626,jonathan.sagner@andersonautomotivegroup.com,NA,Anderson Automotive Group,NA,NA,Raleigh,United States,27617,"9101 Glenwood Ave,",NA,Finance Manager
+Dennis,Yu,5168292834,dennis.yu@biener.com,NA,Biener Audi,NA,NA,Great Neck,United States,11021,"795 Northern Blvd,",NA,Finance Manager
+Joshua,Cherny,7865775213,joshua.cherny@bramanmiami.com,NA,Braman Miami,NA,NA,Miami,United States,33137,2060 Biscayne Blvd Directions,NA,Finance Manager
+Sean,Mulhern,8158958105,sean.mulhern@brianbemis.com,NA,Brian Bemis Automotive Group,NA,NA,Sycamore,United States,60178,"1875 Dekalb Ave,",NA,Business Manager
+Nathan,Mikhlin,5033704800,nathan.mikhlin@capitolauto.com,NA,Capitol Auto Group,NA,NA,Salem,United States,97301,783 Auto Group Ave NE,NA,Finance Manager
+Nima,Karkan,8883581410,nima.karkan@carbiz.com,NA,Carbiz,NA,NA,Baltimore,United States,21215,"6001 Reisterstown Rd,",NA,Finance Manager
+Emily,Murray,9179794701,emily.murray@classpass.com,NA,ClassPass,NA,NA,New York City,United States,10001,"275 7th Ave,",NA,Accounting Manager
+Augie,Delarosa,7083529200,augie.delarosa@continentalnissan.com,NA,Continental Nissan,NA,NA,Countryside,United States,60525,5750 South La Grange Road,NA,Finance Manager
+Ana,Lopera,9547557400,ana.lopera@coralspringsautomall.com,NA,Coral Springs Auto Mall,NA,NA,Coral Springs,United States,33071,"9330 W Atlantic Boulevard Kia,",NA,Finance Manager
+Gabriel,Hernandez,2142964463,gabriel.hernandez@cowboytoyota.com,NA,Cowboy Toyota,NA,NA,Dallas,United States,75228,9525 E R L Thornton Fwy,NA,Finance Manager
+Tuoy,Yam,8002271557,tuoy.yam@crownawards.com,NA,Crown Awards,NA,NA,Hawthorne,United States,10532,"9 Skyline Dr,",NA,Accounting Manager
+Daniel,Quebedeaux,2055093707,daniel.quebedeaux@dixierv.com,NA,Dixie RV SuperStores,NA,NA,Calera,United States,35040,"1150 George Roy Pkwy,",NA,Finance Manager
+Scott,Fishbeck,2484812200,scott@gardner-white.com,NA,Gardner-White,NA,NA,Auburn Hills,United States,48326,"4445 N Atlantic Blvd,",NA,Finance Manager
+Todd,Morris,2059782600,tmorris@hoovertoyota.com,NA,Hoover Toyota,NA,NA,Birmingham,United States,35244,2686 John Hawkins Parkway,NA,Finance Manager
+David,Grond,2088886061,david_grond@jacksons.com,NA,Jacksons Food Stores,NA,NA,Meridian,United States,83642,3450 E Commercial Ct,NA,Accounting Manager - ExtraMile
+Steve,Hoenig,3142664185,stevehoenig@londoff.com,NA,Johnny Londoff Chevrolet,NA,NA,Florissant,United States,63031,1375 Dunn Rd,NA,Finance Manager
+Bethann,Geiger,7166382500,bethann.geiger@northtownauto.com,NA,Northtown Automotive,NA,NA,Amherst,United States,14226,"1135 Millersport Highway,",NA,Finance Manager
+Atuanya,Antoine,2254081100,antoine@leblancauto,NA,Price Leblanc Toyota,NA,NA,Baton Rouge,United States,70817,13250 Airline Hwy,NA,Finance manager
+Jason,Collins,2058238515,jason.collins@suidish.com,NA,Satellites Unlimited,NA,NA,Birmingham,United States,35209,"138 Citation Ct,",NA,Accounting Manager
+Forrest,Hetzel,5413891177,forresth@smolichmotors.com,NA,Smolich Motors,NA,NA,Bend,United States,97701,1865 NE Hwy 20,NA,Sales & Finance Manager
+Sean,Donovan,6516752000,sean.donovan@wuxiapptec.com,NA,Wuxi Apptec,NA,NA,Saint Paul,United States,55120,2540 Executive Drive,NA,IT Project Manager (Securities)
+Timothy,Weber,2816183100,timothy.weber@cevalogistics.com,NA,Ceva Logistics,NA,NA,Houston,United States,77032,15350 Vickery Drive,NA,Sr. It Project Manager
+Robert,Locascio,3058941300,robert.locascio@panalpina.com,NA,Panalpina,NA,NA,Miami,United States,33126,703 Waterford Way # 890,NA,District IT Manager
+Scott,Ahnberg,6612554100,sahnberg@sixflags.com,NA,Six Flags,NA,NA,Valencia,United States,91355,26101 Magic Mountain Parkway,NA,IT Manager
+Steve,Odegaard,2623637191,steve.odegaard@aptar.com,NA,Aptar,NA,NA,Mukwonago,United States,53149,711 Fox Street,NA,"Senior Manager, Information Security"
+Todd,Zampa,4408089100,tzampa@ta-petro.com,NA,Travelcenters Of America,NA,NA,Westlake,United States,44145,24601 Center Ridge Road # 200,NA,"Sr IT Busines Analyst, Manager"
+Jesse,Bowling,9196842478,jesse.bowling@duke.edu,NA,"Duke University Health System, Inc.",NA,NA,Durham,United States,27710,210 Research Drive,NA,Security Architect & CSIRT Program Manager
+Liem,Tran,7138212000,liem.tran@enbridge.com,NA,Enbridge Inc.,NA,NA,Houston,United States,77002,1100 Louisiana Street # 2900,NA,IT Manager
+Blake,Argo,5136511111,blake.argo@staffmark.com,NA,Staffmark,NA,NA,Cincinnati,United States,45202,201 East 4Th Street # 800,NA,IT Systems Manager
+Claudio,Carmona,6178591500,ccarmona@audaxgroup.com,NA,Audax Group,NA,NA,Boston,United States,2199,101 Huntington Avenue # 2450,NA,IT Manager
+Daniel,Kemmy,7635222100,dan.kemmy@mortenson.com,NA,Mortenson,NA,NA,Minneapolis,United States,55422,700 Meadow Lane North,NA,IT Manager - Platform Solutions
+Angel,Dahilig,3165269000,angel.dahilig@spiritaero.com,NA,Spirit Aerosystems,NA,NA,Wichita,United States,67210,3801 S Oliver St,NA,Senior IT Manager
+Joseph,Caputo,2127076700,joseph.caputo@burberry.com,NA,Burberry,NA,NA,New York,United States,10022,444 Madison Ave Ste 446,NA,IT Network Manager
+Donald,Holka,3302252600,donald.holka@mtdproducts.com,NA,Mtd Products,NA,NA,Valley City,United States,44280,5903 Grafton Rd,NA,"IT Development Manager, Web Applications"
+Jonathan,Selby,4126244141,selby@pitt.edu,NA,University Of Pittsburgh,NA,NA,Pittsburgh,United States,15260,4200 5Th Ave,NA,IT Manager
+Jennifer,Haslage,4403296000,jhaslage@invacare.com,NA,Invacare Corporation,NA,NA,Elyria,United States,44036,1 Invacare Way,NA,IT Project Manager/Business Process Analyst
+Steve,Reeb,7574817758,sreeb@adsinc.com,NA,"Ads, Inc.",NA,NA,Virginia Beach,United States,23452,621 Lynnhaven Pkwy.,NA,IT Manager
+Cathy,Shackelford,3145958000,cathy.shackelford@nidec.com,NA,Nidec Motor Corporation,NA,NA,St. Louis,United States,63136,8050 West Florissant Ave.,NA,"Manager, IT Services"
+Chris,Wall,3104174700,chris.wall@aryzta.com,NA,Aryzta,NA,NA,San Leandro,United States,94577,14990 Catalina St,NA,"Manager, IT Infrastructure"
+Rick,Urdahl,8324864000,rurdahl@citgo.com,NA,Citgo Petroleum,NA,NA,Houston,United States,77077,1293 Eldridge Pkwy,NA,Manager Network Systems Infrastructure
+Travis,Morgan,5163216000,tmorgan@northwell.edu,NA,Northwell Health Inc,NA,NA,New Hyde Park,United States,11042,2550-2560 Marcus Ave,NA,Information Security Manager
+Michael,Gillespie,6466054750,michael.gillespie@mountsinai.org,NA,Mount Sinai Health System,NA,NA,New York,United States,10017,150 E 42Nd St Bsmt 2,NA,IT Security Manager
+David,Harvey,6126726300,davidharvey@fairview.org,NA,Fairview Health Services,NA,NA,Minneapolis,United States,55454,2450 Riverside Ave,NA,IT Manager
+Grant,Chun,2123994200,grant.chun@remy-cointreau.com,NA,Remy Cointreau,NA,NA,New York,United States,10019,1290 Avenue Of The Americas 10Th Floor,NA,"IT Manager, Data"
+Gerriann,Marvin,8168016455,gerriann.marvin@dfamilk.com,NA,Dairy Farmers Of America - Hq,NA,NA,Kansas,United States,64153,1405 N. 98Th St.,NA,IT Project Manager
+Paul,Dixon,9784051677,paul.dixon@tomtom.com,NA,Tomtom,NA,NA,Concord,United States,1742,150 Baker Avenue Ext,NA,Manager Software Engineering
+Brian,Diviney,6176549500,bdiviney@avalonbay.com,NA,Avalonbay Communities,NA,NA,Boston,United States,2210,51 Sleeper St #750,NA,Network Operations Manager
+Russell,O'Sullivan,4409857440,rosullivan@khov.com,NA,K. Hovnanianâ® Homes,NA,NA,Lorain,United States,44053,6150 Park Square Dr,NA,"Manager, Infrastructure Engineering"
+Hae,Hart,9787312500,hhart@simplexgrinnell.com,NA,"Simplexgrinnell - Richmond, Va",NA,NA,Westminster,United States,1441,50 Technology Drive,NA,Senior IT Manager
+Bryan,Sorel,6782213000,bryan.sorel@sidel.com,NA,Sidel,NA,NA,Norcross,United States,30092,5600 Sun Ct,NA,Manager of Information Technology sidel and novembal north america
+Derek,Creason,9133449200,creasond@compassminerals.com,NA,Compass Minerals,NA,NA,Overland Park,United States,66210,9900 W 109Th St Ste 100,NA,Information Security Manager
+Adam,Townsend,5027794700,adam.townsend@atriaseniorliving.com,NA,Atria Senior Living Group,NA,NA,Louisville,United States,40202,300 E Market St Ste 100,NA,Senior IT Project Manager
+Theresa,Hartsfield,8047885000,theresa.hartsfield@newmarket.com,NA,Newmarket Corporation,NA,NA,Richmond,United States,23219,330 S 4Th St,NA,IT Manager-Global Service Delivery
+Mike,Akers,5619979700,makers@gables.com,NA,Gables Residential,NA,NA,Boca Raton,United States,33432,225 Ne Mizner Blvd,NA,Regional IT Manager
+Mike,Dunn,5867598900,mike.dunn@flex-n-gate.com,NA,Flex-N-Gate,NA,NA,Warren,United States,48091,5663 E 9 Mile Rd,NA,IT Manager
+Kevin,Hopkins,8132741000,kevin.hopkins@sykes.com,NA,Sykes Enterprises,NA,NA,Tampa,United States,33602,400 N Ashley Dr Ste 2800,NA,"Senior Manager, Global IS Application Development (Enterprise Architecture)"
+Eric,Engelmann,9204377601,eric.engelmann@schreiberfoods.com,NA,Schreiber Foods,NA,NA,Green Bay,United States,54301,400 N Washington St,NA,ITProjectManager
+Andrew,Thomas,7139964700,andrew.thomas@dxpe.com,NA,Dxp Enterprises Inc,NA,NA,Houston,United States,77040,301 Hollister St,NA,Application Development Manager
+Jim,Howell,6784415200,jim.howell@bcdtravel.com,NA,Bcd Travel Usa Llc,NA,NA,Atlanta,United States,30328,6 Concourse Pkwy,NA,"Manager, IT Service Management"
+David,Moro,3306562600,david.moro@joann.com,NA,Joann Stores,NA,NA,Hudson,United States,44236,5555 Darrow Rd,NA,IT Manager
+Carlos,Zetina,2486311100,carlos.zetina@magna.com,NA,Magna International,NA,NA,Troy,United States,48098,750 Tower Dr,NA,IT Manager
+Steve,Boulger,2156656000,sboulger@janney.com,NA,Janney Montgomery Scott Llc,NA,NA,Philadelphia,United States,19103,1717 Arch St,NA,Network Engineering Manager
+Andres,Alfaro,5026227000,andres.alfaro@pharmerica.com,NA,Pharmerica,NA,NA,Louisville,United States,40222,805 N Whittington Pkwy,NA,Manager Application Support
+Jason,Benson,3126480111,jason.benson@atkearney.com,NA,A.T. Kearney,NA,NA,Chicago,United States,60606,227 W Monroe St,NA,Infrastructure Manager
+Ezequiel,De Mario,9187425531,ezequiel.demario@hpinc.com,NA,Helmerich & Payne,NA,NA,Tulsa,United States,74119,1437 S Boulder Ave # 1400,NA,International IT Manager - Latin America and Middle East Operations
+Craig,Dieck,7177637064,cdieck@harsco.com,NA,Harsco Corporation,NA,NA,Camp Hill,United States,17011,350 Poplar Church Rd,NA,Global Manager - IT Operations and Networking
+Jimmy,Litz,3122919966,jimmy.litz@vividseats.com,NA,Vivid Seats,NA,NA,Chicago,United States,60606,111 N Canal St Ste 800,NA,IT Support Manager
+Michael,Dayhoff,2159388000,mdayhoff@tollbrothers.com,NA,Toll Brothers,NA,NA,Horsham,United States,19044,250 Gibraltar Rd,NA,Architecture IT Project Manager
+Ashley,Brown,8129347500,ashley.brown@hillenbrand.com,NA,Hillenbrand,NA,NA,Batesville,United States,47006,1 Batesville Blvd,NA,IT Project Manager
+Leland,Roling,3095576000,Lroling@Growmark.Com,NA,"GROWMARK, Inc.",NA,NA,Bloomington,United States,61701,1701 Towanda Ave,NA,Architecture and Innovation Manager
+Ian,Linderoth,8668266941,Ilinderoth@Sharkninja.Com,NA,SharkNinja,NA,NA,Needham,United States,2494,89 A St Suite 100,NA,Data Center Manager
+Matthew,Schmidt,7084927000,Mschmidt@Iaai.Com,NA,IAA,NA,NA,Westchester,United States,60154,"2 Westbrook Corporate Ctr, Fl 10",NA,Senior Manager - Solutions Engineering & Architecture
+Joel,Vasallo,6307568700,Jvasallo@Redbox.Com,NA,"Redbox Automated Retail, LLC",NA,NA,Villa Park,United States,60181,"1 Tower Ln, Ste 900",NA,"
+Manager, Cloud DevOps"
+Johanna,Hughes,2124684000,Johanna.Hughes@Sparkfoundryww.Com,NA,Spark Foundry,NA,NA,New York,United States,10019,1675 Broadway,NA,"Manager, Advanced Analytics & Data Architecture"
+Jim,Bruno,6037729500,Jbruno@Timberland.Com,NA,"Timberland, a VF Company",NA,NA,Stratham,United States,3885,200 Domain Dr,NA,"Manager, Data Architecture"
+Matthew,ABeck,3018924350,Mabeck@2U.Com,NA,2U,NA,NA,Brooklyn,United States,11201,"55 Prospect St, ",NA,Business Intelligence Manager
+Lal,Dhal,4804574000,Lal.Dhal@Pearson.Com,NA,Pearson,NA,NA,Chandler,United States,85226,"3075 W Ray Rd,",NA,Manager Analytics
+Thejaswini,SarmisthaJalagadugula,8477935997,Tjalagadugula@Zebra.Com,NA,Zebra Technologies Corporation,NA,NA,Lincolnshire,United States,60069,3 Overlook Point,NA,Business Intelligence Manager
+John,Bonam,3097550433,Jbonam@Yash.Com,NA,Yash Technologies Inc.,NA,NA,East Moline,United States,61244,", 841 Avenue of the Cities,",NA,Data and Analytics Architect/Manager
+Craig,Giattino,8056992040,Craig.Giattino@Yardi.Com,NA,Yardi Systems,NA,NA,"Santa Barbara,",United States,93117,"430 South Fairview Avenue,",NA,"Manager, Meter Data Management"
+Gary,Cave,6416211000,Gcave@Pella.Com,NA,Pella Corporation,NA,NA,Pella,United States,50219,102 Main Street,NA,"Manager, Data Analytics"
+Stephanie,Padilla,2159864011,Stephanie.Padilla@Unisys.Com,NA,Unisys,NA,NA,Blue Bell,United States,19422,"801 Lakeview Drive, Ste 100,",NA,Cloud Business Office – Services Manager
+Apurva,Mehta,7203321000,Apurva.Mehta@Westernunion.Com,NA,WESTERN UNION ,NA,NA,Denver,United States,80121,"7001 E Belleview Ave,",NA,Technical Program Manager - Bigdata Analytics & Engineering
+Kafeel,Tahir,2018010233,Kafeel.Tahir@Cognizant.Com,NA,Cognizant,NA,NA,Teaneck,United States,7666,500 Frank W Burr Blvd,NA,AWS Cloud Solutions Architect - Manager
+Robert,Nicholas,4085792800,Rnicholas@Extremenetworks.Com,NA,Extreme Networks,NA,NA,San Jose,United States,95119,6480 Viaduct Del Oro,NA,"Technical Publications Manager, Cloud and Applications"
+Hoon,Bae,7195902568,Hoon_Bae@Keysight.Com,NA,KEYSIGHT TECHNOLOGIES INC.,NA,NA,Colorado Springs,United States,80907,1900 Garden of the Gods Rd,NA,Business Intelligence & Territory Assignment Solution Manage
+David,Jack,7815655000,David.Jack@Nuance.Com,NA,Nuance Communications,NA,NA,Burlington,United States,1803,1 Wayside Rd.,NA,"Program Manager, Data Management and Insights"
+Kevin,Bolle,4078759595,Kevin.Bolle@Ravago.Com,NA,Ravago,NA,NA,Orlando,United States,32810,1900 Summit Tower Blvd # 900,NA,Business Intelligence Manager
+Suzan,Reagan,5052773038,Reagans@Unm.Edu,NA,The University of New Mexico,NA,NA,Albuquerque,United States,87131,1717 Lomas Blvd. NE 1 University of New Mexico,NA,Sr Program Manager Data Bank
+Michael,Pritchard,9199666160,Michael_Pritchard@Med.Unc.Edu,NA,The University of North Carolina,NA,NA,Chapel Hill,United States,27599,103 South Bldg Cb 9100,NA,Data Manager
+Barton,Davis,5124241000,Barton.Davis@Tel.Com,NA,Tokyo Electron US,NA,NA,Austin,United States,78741,2400 Grove Blvd,NA,Data Center Manager
+Mathias,Lee,4155141426,Mathias.Lee@Ucsf.Edu,NA,UCSF,NA,NA,San Francisco,United States,94143,500 Parnassus Ave,NA,"Business Systems Manager, Real Estate Business Intelligence Team"
+Krista,Duffy,7192553418,Kduffy@Uccs.Edu,NA,University of Colorado Colorado Springs,NA,NA,Colorado Springs,United States,80918,1420 Austin Bluffs Pkwy,NA,Business Intelligence Manager
+Maria,Hein,3193357076,Maria-Hein@Uiowa.Edu,NA,University of Iowa,NA,NA,Iowa City,United States,52242,Jessup Hl Rm 105,NA,Data Manager
+Hector,Gomez,3052844323,Hector.Gomez@Miami.Edu,NA,UNIVERSITY OF MIAMI,NA,NA,Coral Gables,United States,33146,Memorial Dr,NA,Sr. Manager Business Intelligence
+Casey,Marks,7654948532,Marks11@Purdue.Edu,NA,University of Purdue,NA,NA,West Lafayette,United States,47907,Hovde Hall Of Administration,NA,Strategic Data Manager
+Johann,Reinicke,4342436317,Jfr8D@Virginia.Edu,NA,University of Virginia,NA,NA,Charlottesville,United States,22903,2400 Old Ivy Rd,NA,"Manager, People Analytics"
+Wendy,Wilkerson,8152266000,Wendy.Wilkerson@Hs.Utc.Com,NA,UTC Aerospace Systems,NA,NA,Rockford,United States,61108,4747 Harrison Ave,NA,"IT Manager, Business Intelligence"
+Kirk,Richardson,4029631000,Kirk.Richardson@Valmont.Com,NA,Valmont Industries,NA,NA,Omaha,United States,68154,One Valmont Plaza,NA,Manager IT Software Products
+Tina,Eddy,3608969833,Eddyt@Wacom.Com,NA,Wacom Technology Corp.,NA,NA,Vancouver,United States,98683,1311 SE Cardinal Ct,NA,Senior Manager Business Intelligence
+Rick,Tomlinson,3367585811,Rick@Wfu.Edu,NA,Wake Forest University,NA,NA,Winston-salem,United States,27106,1834 Wake Forest Rd,NA,"Data Center Manager, Sr"
+Eric,Farson,3142468066,Ericfarson71@Webster.Edu,NA,Webster University,NA,NA,St Louis,United States,63119,470 E Lockwood Ave,NA,IT Business Process Analyst/IT Project Manager
+Jon,Peccarelli,4142212345,Jon.Peccarelli@Wecenergygroup.Com,NA,WEC Energy Group,NA,NA,Milwaukee,United States,53203,231 W Michigan St Po Box 1331,NA,Manager ERP Applications
+Arun,Ganesh,4087176000,Arun.Ganesh@Wdc.Com,NA,Western Digital Corporation,NA,NA,San Jose,United States,95119,5601 Great Oaks Pkwy,NA,Manager - Data Governance and Data Management
+Michael,Nanasi,2699235000,Michael.Nanasi@Whirlpoolcorp.Com,NA,Whirlpool Corporation,NA,NA,Benton Harbor,United States,49022,2000 N M 63,NA,Manager Data Science and Workforce Analytics
+Joshua,Williams,8642989800,Joshua.Williams@Worldacceptance.Com,NA,World Finance,NA,NA,Greenville,United States,29607,108 Frederick St,NA,Business Intelligence Manager
+Mark,Guglielmana,5105720200,Mark.Guglielmana@Lamresearch.Com,NA,Lam Research,NA,NA,Fremont,United States,94538,4650 Cushing Pkwy,NA,"Manager, Systems Design/Architecture"
+Muzaffar,Mahmood,8173027000,Muzaffar.Mahmood@Gmfinancial.Com,NA,GM Financial,NA,NA,Fort Worth,United States,76102,801 Cherry Street Suite 3500,NA,Senior Data Architect Manager - International Operations
+Aaron,Smith,5152392011,Aaron.Smith@Mgmc.Org,NA,Mary Greeley Medical Center,NA,NA,Ames,United States,50010,"1111 Duff Ave,",NA,Manager Business Intelligence
+Scott,Wissel,3128533223,Scott_Wissel@Ttx.Com,NA,TTX Company,NA,NA,Chicago,United States,60606,101 N Wacker Dr,NA,Manager Digital Architecture
+Sergey,Ivanchenkov,9046460199,Sergey_Ivanchenkov@Onecallcm.Com,NA,One Call,NA,NA,Jacksonville,United States,32207,"841 Prudential Dr, #900",NA,"Sr. Development Manager, Sr. Architect"
+Corey,Collins,6027533598,Corey.Collins@Centaurihs.Com,NA,"Centauri Health Solutions, Inc",NA,NA,Scottsdale,United States,85254,"16260 N 71st St, Ste 350",NA,Manager of Database Development
+Stuart,Benington,3126024000,Sbenington@Wmp.Com,NA,West Monroe,NA,NA,Chicago,United States,60606,"222 W. Adams, Ste 1100",NA,"Senior Manager, Cloud/Infrastructure M&A"
+Leo,Berrun,6502346000,Leo.Berrun@Protiviti.Com,NA,Protiviti,NA,NA,Menlo Park,United States,94025,"2884 Sand Hill Rd, Ste 200",NA,Senior Manager - Cloud Security
+Michael,Ye,9738026000,Michael.Ye@Pgimrealestate.Com,NA,PGIM Real Estate,NA,NA,Newark,United States,7102,"655 Broad St, Fl 17",NA,Manager Database Administration
+Sherry ,Zhang,4155799153,sherry.zhang@slack.com,NA,Slack,NA,NA,San Francisco,United States,94105,500 Howard St,NA,"Senior Engineering Manager, Data"
+Jay ,Clarke ,8887999666,jay.clarke@zoom.com,NA,Zoom Video Communications,NA,NA,San Jose,United States,95113,"55 Almaden Blvd 6th Floor,",NA,"Senior Program Manager, Data Privacy"
+Zarana ,Patel,6092524111,zarana.patel@bms.com,NA,Bristol Myers Squibb,NA,NA,Princeton,United States,8540,3551 Lawrenceville Rd,NA," Senior Manager, EDC Database Development"
+Michael ,Johnson,4693657777,michael.johnson@amerisourcebergen.com,NA,AmerisourceBergen,NA,NA,Frisco,United States,75034,3101 Gaylord Pkwy,NA,Service Manager - Enterprise Master Data Management
+Jonathan ,Fullam,4085693035,jonthan.fullam@gitlab.com,NA,GitLab Inc.,NA,NA,San Francisco,United States,94104,"268 Bush St Suite 350,",NA, Director of Global Solutions Architecture
+ John ,Clayton,6517961600,john.clayton@rti-inc.com,NA,Restaurant Technologies,NA,NA,Saint Paul,United States,55120,"2250 Pilot Knob Rd, Saint Paul, Minnesota, ",NA,IT Manager - Data Digitalization
+ Keshav  ,Sud,7814187000,keshav.sud@keurigdrpepper.com,NA, Keurig Dr Pepper Inc.  ,NA,NA,Boston,United States,1803,":
+53 South Ave, Burlington, Massachusetts, ",NA,Sr. Manager - Data Science 
+ Adam ,Grace,4693987000,adam.grace@fluor.com,NA,Fluor Corporation,NA,NA,"Irving,",United States,75039,"6700 Las Colinas Blvd,  Texas, ",NA,Manager - Data Analytics & BI Platform Support
+Jeremy ,Zhang,6505743000,jeremy.zhang@gilead.com,NA,Gilead Sciences,NA,NA,Foster,United States,94404,"
+333 Lakeside Dr, Foster City, California,  ",NA,"Senior Manager, Data Science "
+Agata,Dzieza,6309194800,agata.dzieza@sekologistics.com,NA,Seko Logistics,NA,NA,Itasca,United States,60143,"1100 Arlington Heights Rd, Ste 600",NA,Manager of Business Intelligence (BI) / Client Services
+Kristen,Hagedorn,3129225000,kristen.hagedorn@hubinternational.com,NA,Hub International Limited,NA,NA,Chicago,United States,60654,"300 N. LaSalle Street, 17th floor",NA,"Manager, Infrastructure and Cloud Engineering"
+Marc ,Walker,8132868383,marc.walker@gerdau.com,NA,Gerdau North America,NA,NA,Tampa,United States,33607,4221 West Boy Scout Boulevard Suite 600,NA,"Senior Manager IT Infrastructure: Agile, Devops, Digital Transformation, Cloud First"
+Benoy ,Thomas,2124162000,benoy.thomas@dowjones.com,NA,Dow Jones & Co.,NA,NA,New York,United States,10036,1211 Avenue of the Americas,NA,Senior Manager - Enterprise DevOps & Cloud Engineering
+Carmen,Wiedenhoffer,3144511818,cwiedenhoffer@1904labs.com,NA,1904labs,NA,NA,St. Louis,United States,63108,20 S Sarah St,NA,Director Talent Acquisition
+Ala,Nuseibeh,6504928869,anuseibeh@autox.ai,NA,AutoX Inc,NA,NA,San Jose,United States,95131,441 West Trimble Road,NA,Head of Talent Acquisition
+Angela,Gania,8582289283,agania@belmontpark.com,NA,Belmont Park Entertainment,NA,NA,San Diego,United States,92109,3146 Mission Blvd,NA,People and Culture Manager
+Christina,Caccavale,6178299570,christina.caccavale@buildium.com,NA,Buildium,NA,NA,Boston,United States,2108,"3 Center Plz, Ste 400",NA,Senior Human Resources Manager
+Jacki,Taubman,2187204435,jacki.taubman@citon.com,NA,Citon Computer Corp,NA,NA,Duluth,United States,55802,209 W 1st St,NA,People Experience Manager
+Jennifer,Clarke,3126550622,jennifer.clarke@datassential.com,NA,Datassential,NA,NA,Chicago,United States,60603,"18 S. Michigan, Fl 9",NA,"Senior Manager, People & Experience"
+Paul,Lang,6178630262,plang@gasbuddy.com,NA,GasBuddy,NA,NA,Boston,United States,2114,"77 N Washington St, Fl 2",NA,People Operations Manager
+Haley,Moon,4152951901,haley@influxdata.com,NA,InfluxData,NA,NA,San Francisco,United States,94103,"799 Market St, Ste 400",NA,People Operations Manager
+Amanda,Fisher,4065521022,afisher@lumenad.com,NA,LumenAd,NA,NA,Missoula,United States,59802,111 N Higgins Ave #500,NA,Director of Human Resources
+Connie,Ju,6504772991,connie@lyrahealth.com,NA,Lyra Health,NA,NA,Burlingame,United States,94010,200 Park Rd,NA,People Operations and Benefits Manager
+Stephanie,Passwater,5107750515,spasswater@oncocyte.com,NA,Oncocyte Corporation,NA,NA,Alameda,United States,94501,"1010 Atlantic Ave, Ste 102",NA,People Operations Manager
+Jesse,Morton,7578731587,jmorton@pbmares.com,NA,"PBMares, LLP",NA,NA,Newport News,United States,23606,"701 Town Center Dr, Ste 900",NA,"Senior Director, Organizational Growth & Development"
+Braedan,Mason,7745719869,braedan_mason@prohome.com,NA,ProHome International,NA,NA,Franklin,United States,2038,"430 Franklin Village Dr, #181",NA,Manager of Corporate Organizational Learning & Development
+Alyssa,Eagan,2156955002,aeagan@red-spark.com,NA,Red-Spark.com,NA,NA,Philadelphia,United States,19104,"3675 Market St, Ste 900",NA,People Operations Manager
+Evamor,Palacio,4083437243,evamorpalacio@sagecenters.com,NA,SAGE Veterinary Centers,NA,NA,Campbell,United States,95008,907 Dell Ave,NA,"Manager, People Operations"
+Alexa,Morgan,9173791709,alexa@shethinx.com,NA,Thinx Inc.,NA,NA,New York City,United States,10001,"601 W 26th St, Ste 325-500",NA,"Manager, People & Culture"
+Leilani,Lucero,3479275930,leilani@simondata.com,NA,Simon Data,NA,NA,New York,United States,10003,821 Broadway Floor 4,NA,Head of Talent Acquisition
+Nikki,Hughes,4046209764,nhughes@simplepart.com,NA,SimplePart LLC,NA,NA,Atlanta,United States,30303,84 Walton Street Nw # 400,NA,Director of People Operations
+Haley,Baumberger,2062820884,haley@teleionconsulting.com,NA,Teleion,NA,NA,Seattle,United States,98109,"1000 Dexter Avenue North, Suite #520",NA,People Operations Manager
+Nicole,Edwards,7818591400,nedwards@thdinc.com,NA,Thompson | Habib | Denison Inc,NA,NA,Lincoln,United States,1773,55 Old Bedford Rd,NA,People Operations Manager
+Casey,Block,2627833500,casey.block@magnetek.com,NA,Magnetek,NA,NA,Menomonee Falls,United States,53051,N49W13650 Campbell Dr,NA,Senior HR Services Specialist
+Samir,Hans,7324659100,shans@xduce.com,NA,XDuce,NA,NA,Edison,United States,8837,510 Thornall St # 375,NA,Talent Acquisition Specialist
+Joanne,Pagnotta,5088325394,joanne_pagnotta@worcesterenvelope.com,NA,Worcester Envelope Company,NA,NA,Auburn,United States,1501,22 Millbury St,NA,Human Resources Manager
+Laura,De Santos,4153917600,ldesantos@wmjobs.com,NA,Wollborg Michelson Recruiting,NA,NA,San Francisco,United States,94105,"595 Market St, Ste 2570",NA,Recruitment Specialist
+Lucy,Wilde,2053384242,lucy.wilde@wkw-usa.com,NA,"WKW-Erbsloeh Automotive, LLC",NA,NA,"Pell City,",United States,35125,103 Parkway E,NA,HR Generalist
+Todd,Shewmake,2063244594,todd.shewmake@wimmersolutions.com,NA,Wimmer Solutions,NA,NA,Seattle,United States,98103,1341 N. Northlake Way Suite 300,NA,Senior Information Technology Recruiter
+Luis,Velasco,3106012530,luis.velasco@wilhelmina.com,NA,Wilhelmina,NA,NA,Beverly Hills,United States,90212,9378 Wilshire Blvd,NA,Talent Coordinator & Scout
+Rebecca,Morales,7147124150,rebecca.morales@westwaysstaffing.com,NA,"Westways Staffing Services, Inc",NA,NA,Orange,United States,92868,"500 City Pkwy W, Ste 130",NA,Staffing Coordinator
+Jenny,Jacobs,5307565905,jenny.jacobs@westyost.com,NA,West Yost Associates,NA,NA,San Diego,United States,92128,"11939 Rancho Bernardo Road, Suite 100",NA,Human Resources Coordinator
+Berenice,Martinez,9512965757,berenice.martinez@westpakavocado.com,NA,"West Pak Avocado, Inc.",NA,NA,Murrieta,United States,92563,38655 Sky Canyon Drive,NA,Payroll Administrator
+Sandra,Budmark,7166880766,sandra.budmark@wendelcompanies.com,NA,WENDEL Companies,NA,NA,Buffalo,United States,14221,"375 Essjay RoadCenterpointe Corporate Park, Ste 200",NA,Organizational Development Director
+Maggie,Ball,7138666000,maggieball@weingarten.com,NA,Weingarten Realty,NA,NA,Houston,United States,77292,"2600 Citadel Plaza Dr, Ste 300",NA,Human Resources Coordinator
+Tanya,Hamilton,7707510442,tanya.hamilton@kids2.com,NA,Kids2,NA,NA,Atlanta,United States,30305,"3333 Piedmont Rd, Ste 1800",NA,Talent Acquisition Partner
+Rebecca,Cloutier,8026544200,rcloutier@champcable.com,NA,Champlain Cable Corporation,NA,NA,Colchester,United States,5446,"175 Hercules Dr,",NA,Director of Human Resources
+Andy,Kim,7709880633,andy.kim@zapier.com,NA,Zapier,NA,NA,San Francisco,United States,94104,548 Market Street,NA,Senior Technical Recruiter
+Muthukumar,Veluchamy,4082474645,muthukumar.veluchamy@vysystems.com,NA,VySystems,NA,NA,Santa Clara,United States,95054,4701 Patrick Henry Dr building 16,NA,Senior Technical Recruiter
+Kristin,Ahern,6309836400,kristin.ahern@prairieinc.com,NA,Prairie Consulting Services,NA,NA,Naperville,United States,60563,"300 E 5th Ave, #300",NA,Senior Technical Recruiter
+Ditta,Vanessa,2034072000,dvanessa@hamden.org,NA,Hamden Public Schools,NA,NA,Hamden,United States,6517,60 Putnam Avenue,NA,Director of Human Resources
+Nanda,Kumar,7327379944,nanda@wizardtechsolutions.com,NA,Wizardtechsolutions Inc,NA,NA,Piscataway,United States,8854,"15 Corporate Pl S, Suite # 145",NA,Hiring Manager
+Trisha,Furdge,7635766497,tfurdge@rmssurgical.com,NA,rms Surgical,NA,NA,Anoka,United States,55303,1220 Lund Blvd,NA,Human Resources Specialist
+vinod,ganji,7326269820,vinod.ganji@compestsolutions.com,NA,Compest Solutions Inc.,NA,NA,Piscataway,United States,8854,45 Knightsbridge Rd,NA,Sr. Technical Recruiter
+Shawna,Dentici-Rivera,6508003308,shawna.rivera@wepay.com,NA,Wepay,NA,NA,"Palo Alto,",United States,94306,380 Portage Ave,NA,Technical Recruiter
+Ramandeep,Chawda,2106144198,ramandeep@bestica.com,NA,Bestica Inc.,NA,NA,San Antonio,United States,78229,"3463 Magic Drive, Suite 303",NA,Recruitment Specialist
+Mike ,Frantz,6103361330,mike.frantz@amertac.com,NA,AmerTac,NA,NA,Breinigsville,United States,18031,250 Boulder Drive,NA,Business Operations Manager
+Peter ,Sun,9096265888,peter_sun@amsino.com,NA,Amsino International Inc.,NA,NA,Pomona,United States,91768,708 Corporate Center Dr,NA,CFO
+eamonn ,benson,9046425303,ebenson@brookssolutions.net,NA,Brooks Building Solutions,NA,NA,Jacksonville,United States,32210,4501 Beverly Ave,NA,Controller
+Joyce ,Morrash,5702705790,joycemorrash@commonwealthequipment.com,NA,Commonwealth Equipment Corp,NA,NA,Ashley,United States,18706,36 Hazleton St,NA,Controller
+Amit ,Sharma,5169319090,amit@crystorama.com,NA,CRYSTORAMA INC.,NA,NA,Westbury,United States,11590,95 Cantiague Rock Rd,NA,Director of IT
+Miriam ,Rohe,3108982688,mrohe@frontierimagingservices.com,NA,Frontier Imaging Services,NA,NA,Compton,United States,90220,1250 W Artesia Blvd,NA,Director Of Business Operations
+John ,Sedlak,3303645958,john.sedlak@geiohio.com,NA,Graphic Enterprises,NA,NA,North Canton,United States,44720,3874 Highland Park NW,NA,IT Director
+Neil ,Bercovitz,6308333838,nbercovitz@hatchell.com,NA,"HATCHELL & ASSOCIATES, INC.",NA,NA,Elmhurst,United States,60126,414 W Fullerton Ave,NA,Director of Accounting 
+Brent ,Tabor,5633231889,brent.tabor@midlandsci.com,NA,"Midland Scientific, Inc.",NA,NA,Davenport,United States,52802,4616 Kimmel Dr,NA,Controller
+David ,Burroughs,5403756700,dburroughs@qualichem.com,NA,"QualiChem, Inc.",NA,NA,Salem,United States,24153,2003 Salem Industrial Dr,NA,Regional Business Manager
+Kathie ,Langel,5039055000,klangel@supplysource.us,NA,Supply Source* Inc.,NA,NA,Clackamas,United States,97015,12402 SE Jennifer St Ste 190,NA,Controller
+David ,Quigley,5742431096,dquigley@advancedimaging.net,NA,Advanced Imaging Solutions,NA,NA,Hopkins,United States,55345,6121 Baker Rd Ste 110,NA,CIO
+Nancy ,Hsu,9099301688,nhsu@wintersunchem.com,NA,Wintersun Chemical,NA,NA,Ontario,United States,91761,1250 E Belmont St,NA,CFO
+John ,Braun,2015073300,john.braun@umccorp.com,NA,United Mineral & Chemical Corporation,NA,NA,Lyndhurst,United States,7071,160 Chubb Ave,NA,Business Unit Manager - Deposition Products
+Vicki ,Ferguson,4046016000,vferguson@soltech.net,NA,SOLTECH,NA,NA,Atlanta,United States,30326,950 E Paces Ferry Rd NE,NA,Director of Finance
+Albert ,Succar,9732791306,asuccar@munzing.com,NA,Munzing,NA,NA,Bloomfield,United States,7003,1455 Broad St,NA,IT Manager
+Todd,Keplinger,3178982411,Todd.Keplinger@centralcabinetry.com,NA,Central Supply Company,NA,NA,Indianapolis,United States,46219,8900 E 30th St,NA,Controller
+Terry ,McCoy,6153507310,Terry.McCoy@SWAinc.com,NA,Steve Ward & Associates,NA,NA,Nashville,United States,37209,7330 Cockrill Bend Blvd,NA,Chief Financial Officer
+Denise ,Webb,7578553131,Denise.Webb@central-wholesale.com,NA,Central Wholesale Supply Corp,NA,NA,Norfolk,United States,23502,1532 Ingleside Rd,NA,Chief Financial Officer
+Jennifer ,Moran,5034744446,Jennifer.Moran@elkcreekfp.com,NA,Elk Creek Forest Products,NA,NA,McMinnville,United States,97128,2700 NE Orchard Ave,NA,Controller
+Lori ,Sepulvado,7136441966,lsepulvado@hollandsw.com,NA,Holland Southwest International,NA,NA,Houston,United States,77033,6831 Silsbee St,NA,Controller
+Bill ,Buckman,4107924430,Bill.Buckman@beltsvillesupply.com,NA,"Beltsville Construction Supply, Inc.",NA,NA,Beltsville,United States,20705,11525 Edmonston Rd,NA,Controller
+Nikki ,Lucas,8565411776,Nikki.Lucas@delren.com,NA,"DelRen HVAC, Inc.",NA,NA,Collingswood,United States,8108,100 W Narberth Ter,NA,IT Manager
+Timothy ,Turner,2623757960,Timothy.Turner@cshardware.com,NA,Custom Service Hardware,NA,NA,Cedarburg,United States,53012,1170 Wauwatosa Rd,NA, IT Manager and Web Developer 
+Lang ,Peterson,3127333900,Lang.Peterson@empirecooler.com,NA,Empire Cooler Service Inc,NA,NA,Chicago,United States,60622,940 W Chicago Ave,NA, Accounting Manager 
+Don ,Hanby,6152443504,Don.Hanby@boisco.com,NA,Boiler Supply Company,NA,NA,Nashville,United States,37211,2400 Kline Ave,NA, Technical Services Manager 
+eamonn ,benson,9046425303,eamonn.benson@brookssolutions.net,NA,Brooks Building Solutions,NA,NA,Jacksonville,United States,32210,4501 Beverly Ave,NA, Controller 
+Trent ,Phillips,8067447091,Trent.Phillips@jarvismetals.com,NA,"JARVIS METALS RECYCLING, INC.",NA,NA,Lubbock,United States,79404,7825 Olive Ave,NA, CFO 
+Hank ,Doane,5036555433,Hank.Doane@pnwmetal.com,NA,"Pnw Metal Recycling, Inc.",NA,NA,Portland,United States,97203,9645 N Columbia Blvd,NA," Chief Financial Officer, Senior VP "
+Sarah ,Orpet,3174857721,Sarah.Orpet@newcometals.com,NA,"Newco Metals, Inc.",NA,NA,Pendleton,United States,46064,7268 S State Road 13,NA, VP of Finance 
+Michael ,Posillico,9543066901,Michael.Posillico@4Grecycling.com,NA,"4th Generation Recycling, Inc.",NA,NA,Deerfield Beach,United States,33442,1456 W Newport Center Dr,NA, Finance Manager 
+Jackie ,Groth,9528816700,Jackie.Groth@lapptannehill.com,NA,Lapp Tannehill,NA,NA,Savage,United States,55378,8675 Eagle Creek Pkwy,NA, Controller 
+Randy ,Schmitz,8627724345,Randy.Schmitz@picassoltg.com,NA,Picasso Lighting,NA,NA,Hillside,United States,7205,1405 N Broad St,NA, Controller 
+Robert,Hanlon,7168760711,roberth@shanorelectric.com,NA,Shanor Electric Supply Inc,NA,NA,Kenmore,United States,14217,1276 Military Rd,NA, Controller/CFO 
+Mark,Hajda,2814927090,mark@vfd.com,NA,Five Star Electric,NA,NA,Houston,United States,77084,"19424 Park Row, Ste 100",NA, Applications & Project Manager 
+Randy,Molthan,8159364700,rmolthan@gordonelectric.com,NA,Gordon Electric Supply,NA,NA,Kankakee,United States,60901,1290 N Hobbie Ave,NA, CFO 
+Ashley,Howe,3179512300,ahowe@esl-spectrum.com,NA,ESL-Spectrum,NA,NA,Indianapolis,United States,46202,"1591 N. Harding St.,",NA, Controller 
+Michael,Brockey,6314673939,mbrockey@kellyhayes.com,NA,Kelly & Hayes Electrical & Plumbing Supply,NA,NA,Nesconset,United States,11767,66 Southern Blvd,NA, COO & CFO 
+Jamie,Czaplicki,7182694900,jamie.czaplicki@cooper-electric.com,NA,COOPER ELECTRIC SUPPLY,NA,NA,Long Island City,United States,11101,22-19 41st Ave,NA, VP of Finance 
+Eddie,Dwyer,2154420700,edwyer@divphl.com,NA,Diversified Group,NA,NA,Warminster,United States,18974,"1 IVYBROOK BLVD., SUITE 100",NA, Financial Controller 
+Susan,Peter,2106618411,speter@alamotransformer.com,NA,ALAMO TRANSFORMER SUPPLY COMPANY,NA,NA,San Antonio,United States,78218,"4931 Space Center Dr
+P.O. Box 39908",NA, CFO 
+Tony,Dezi,3053925508,tony@emid-inc.com,NA,"EMID, LLC",NA,NA,Miami,United States,33172,"2025 N.W. 102nd Avenue
+Suite #105",NA, VP-Chief Financial Officer 
+David,Snowman,3157010210,dsnowman@pwrllc.com,NA,"PWR, LLC",NA,NA,Syracuse,United States,13206,6402 Deere Road,NA, CFO 
+Rene,Baca,7023649998,rbaca@magtechind.com,NA,Magtech Industries Corporation,NA,NA,Las Vegas,United States,89119,5625-A South Arville St.,NA, CFO 
+Tomoko,Carson,2483499800,tomoko.carson@nichia.com,NA,Nichia America Corporation,NA,NA,Wixom,United States,48393,48561 Alpha Dr #100,NA, Financial Manager 
+Jackie,Groth,9528816700,jgroth@lapptannehill.com,NA,Lapp Tannehill,NA,NA,Savage,United States,55378,8675 Eagle Creek Pkwy,NA, Controller 
+Douglas,Vargas,5085131000,doug_vargas@controllerservice.com,NA,Controller Service & Sales Inc.,NA,NA,Avon,United States,2322,13 Robbie Rd,NA, Controller 
+Todd,Treacy,4804831177,todd@lu-az.com,NA,Lighting Unlimited Inc,NA,NA,Scottsdale,United States,85260,15816 N Greenway Hayden Loop #100,NA, CFO / COO 
+Tony,Cunningham,5123716159,tony.unningham@abracon.com,NA,Abracon,NA,NA,Spicewood,United States,78669,5101 Hidden Creek Ln,NA,"Information Technology, Manager"
+Damon,Oberdorf,3016969411,damon.oberdorf@phoenixmecano.com,NA,Phoenix Mecano North America,NA,NA,Frederick,United States,21704, 7330 Executive Way,NA,Information Technology Manager
+Jamie,Talbot,8606741515,jamie.talbot@ebmpapst.us,NA,ebm-papst Inc,NA,NA,Farmington,United States,6032,100 Hyde Rd,NA,Manager Information Technology
+Shawn,Hilton,2145472400,shilton@fibersystems.com,NA,Amphenol Fiber Systems International,NA,NA,Allen,United States,75002,1300 N Central Expy Suite 100,NA,Information Technology Manager
+Jeffrey M,Coons,9198562360,jcoons@abb.com,NA,ABB,NA,NA,Cary,United States,27511,305 Gregson Dr,NA,Information Technology Manager
+Theodore Phillip,Cole,6106472121,theodore.cole@ametek.com,NA,AMETEK,NA,NA,Berwyn,United States,19312,1100 Cassatt Rd,NA,Information Technology Manager
+Erkan,Ozcan,2142204800,erkan.ozcan@mission-critical-electronics.com,NA,Mission Critical Electronics,NA,NA,Dallas,United States,75201,2200 Ross Ave Ste 4050,NA,Information Technology Manager
+Richard,Hoang,9096261820,richard.hoang@hirelco.net,NA,"HiRel Connectors, Inc",NA,NA,Claremont,United States,91711,760 Wharton Dr,NA,Manager of Information Technology
+Dustin,Ward,5206174540,dward@cisww.com,NA,CIS Global,NA,NA,Tucson,United States,85705,"5294, 1791 W Dairy Pl suite 185",NA,Information Technology Manager
+Scott,Harris,2483323900,scott.harris@apollo-fire.com,NA,Apollo America Inc,NA,NA,Auburn Hills,United States,48326,25 Corporate Dr,NA,Information Technology Manager
+Nick,Miller,8146190523,nmiller@kitron.com,NA,Kitron Group,NA,NA,Johnstown,United States,15904,"6948, 160 Jari Dr # 150",NA,Information Technology Manager
+Tracy,Carter,4233344800,tracy.carter@stormpowercomponents.com,NA,Storm Power Components,NA,NA,Decatur,United States,37322,240 Industrial Rd,NA,Information Technology Manager
+Anuradha,Allam,4758824000,anuradha.allam@stormpowercomponents.com,NA,Hubbell Incorporated,NA,NA,Shelton,United States,6484,40 Waterview Dr,NA,Manager Information Technology
+Carlo,Vassalle,9185832266,cvassalle@wattmastercontrols.com,NA,AAON Controls,NA,NA,Parkville,United States,64152,8500 NW River Park Dr,NA,Manager of Information Technology
+Mike,Montgomery,7178451639,mike.montgomery@ib-abel.com,NA,"I.B. Abel, Inc.",NA,NA,York,United States,17406,2745 Black Bridge Rd,NA,Information Technology Manager
+Christian,Pantle,5122667259,cpantle@amts.com,NA,"AM Technical Solutions, Inc",NA,NA,Austin,United States,78734,2213 Ranch Rd 620 N,NA,IT Manager
+Andria,Lynch,6153299445,alynch@esarch.com,NA,Earl Swensson Associates,NA,NA,Nashville,United States,37203,1033 Demonbreun St #800,NA,BIM Manager
+Brian,Lysy,7326716400,blysy@tandmassociates.com,NA,T&M Associates,NA,NA,Middletown,United States,7748,11 Tindall Rd,NA,Director of Information Technology
+John,Doty,9787424400,jdoty@middlesexco.com,NA,The Middlesex Corporation,NA,NA,Littleton,United States,1460,1 Spectacle Pond Rd,NA,Director Of Information Technology
+Scott,Shorey,8105039000,scott.shorey@fernco.com,NA,"Fernco, Inc",NA,NA,Davison,United States,48423,300 Dayton St,NA,IT Operations Manager
+Shawn,Magden,4054168100,shawn.magden@guernsey.us,NA,Guernsey - Engineers/Architects/Consultants,NA,NA,Oklahoma City,United States,73112,5555 N Grand Blvd #100,NA,Information Technology Manager
+Bobby,Mecklin,3183889000,bobby.mecklin@centurylink.com,NA,CenturyLink,NA,NA,Monroe,United States,71203,100 Centurylink Dr,NA,Sr. SAP ERP Development Manager
+Victor,Wood,6829788622,victor.wood@atos.net,NA,Atos,NA,NA,Irving,United States,75063,4851 Regent Blvd,NA,Sr Director SAP ERP Transformation
+Subhashini,Veerepalli,7634331000,s.veerepalli@vistaoutdoor.com,NA,Vista Outdoor Inc,NA,NA,Anoka,United States,55303,1 Vista Way,NA,Senior Manager ERP (SAP & Oracle EBS)
+Jim,Sauceman,8659742303,jsauceman@utk.edu,NA,University of Tennessee,NA,NA,Knoxville,United States,37996,1331 Cir Pk Dr,NA,Director of SAP ERP Support
+Todd,Stanton,6307831000,tstanton@hearthsidefoods.com,NA,Hearthside Food Solutions,NA,NA,Woodridge,United States,60517,10350 Argonne Dr,NA,ERP Director
+Yuvaraja,Devarajan,4087534000,ydevarajan@paloaltonetworks.com,NA,Palo Alto Networks,NA,NA,Santa Clara,United States,95054,3000 Tannery Way,NA,"Sr. Manager, IT ERP/RPA"
+Hemanth,Kulkarni,9896361000,hkulkarni@dow.com,NA,Dow,NA,NA,Midland,United States,48642,2211 H H Dow Way,NA,Director - ERP Applications Development
+Matthew,High,3165269000,mhigh@spiritaero.com,NA,Spirit AeroSystems,NA,NA,Wichita,United States,67210,3801 S Oliver St,NA,IT Manager - SAP Center of Excellence/ERP Strategy
+Koushik,Pal,2075560300,koushik.pal@idexx.com,NA,IDEXX,NA,NA,Westbrook,United States,4092,1 Idexx Dr,NA,SAP Application Development Manager
+Lance,Litmer,9786455500,lance_litmer@mksinst.com,NA,MKS Instruments,NA,NA,Andover,United States,1810,2 Tech Dr,NA,"IT Director, ERP Applications"
+Renee,Eign,3032326800,renee.eign@terumobct.com,NA,Terumo BCT,NA,NA,Lakewood,United States,80215,10811 W Collins Ave,NA,Manager OTC/RTR SAP Applications
+Tom ,McMaster,2029422050, tom.mcmaster@aaa.com ,NA,"AAA Northern California, Nevada & Utah",NA,NA,Bellevue,United States,98006,"3605 132nd Ave. S.E.,",NA,Senior Solutions Architect
+Eric ,Rouillard,2124951784, angela.tran@bnymellon.com ,NA,BNY Mellon,NA,NA,New York City,United States,10286,"240 E Greenwich St, ",NA,Enterprise Data Architect
+Rohan ,Kar,5856787100, rohan.kar@cbrands.com ,NA,Constellation Brands,NA,NA,Victor,United States,14564,"207 High Point 100 Dr Suite 100,",NA,Senior Technical Architect (HCL America Inc)
+Muthu ,Kumar,7043823853, muthu.kumar@duke-energy.com ,NA,Duke Energy Corporation,NA,NA,Charlotte,United States,28202,550 South Tryon St Suite 180,NA,Data Architect
+Ravi ,Alladi,2125988000, ralladi@guardianlife.com ,NA,Guardian Life,NA,NA,New York City,United States,10001,"10 Hudson Yards, Fl 22,",NA,Big Data Architect
+Dale ,Nicholson,5074375611, dnicholson@hormelfoods.com ,NA,Hormel Foods,NA,NA,Austin,United States,55912,"1 Hormel Pl,",NA,Enterprise Architect
+Brian ,Marx,4149611000, bmarx@manpowergroup.com ,NA,ManpowerGroup,NA,NA,Milwaukee,United States,53212,"100 Manpower Pl, ",NA,Senior Data Warehouse Architect
+Roger,Bigger,2122706000,roger.bigger@jpmorgan.com,NA,JPMorgan Chase & Co.,NA,NA,New York,United States,10172,"270 Park Ave,",NA,Data Architect
+Chiranjeevi,Chakka,2126644444,chiranjeevi.chakka@nbcuniversal.com,NA,"NBCUniversal Media, LLC",NA,NA,New York,United States,10112 ,30 Rockefeller Plaza,NA,Sr Manager DevOps
+Munim ,Abbasi ,4253784000,Munim.Abbasi@t-mobile.com,NA,T-Mobile ,NA,NA,"Bellevue, ",United States,"98006,","12920 SE 38th St, ",NA,Data Architect 
+Mark ,Halperin ,2125591000,Mark.Halperin@citigroup.com,NA,Citi,NA,NA,"New York City, ",United States,"10013,","388 Greenwich St, ",NA,Data Architect 
+Aloor,Ramachandran ,5088281982,Aloor.Ramachandran@tjx.com,NA,"The TJX Companies, Inc.",NA,NA,"Taunton, ",United States,"02780,","9 Mozzone Blvd, ",NA,Data Architect 
+Sougata ,Dowari ,2128966600,Sougata.Dowar@genpact.com,NA,Genpact,NA,NA,"New York City, ",United States,"10036,","1155 Avenue of the Americas, ",NA,Data Architect 
+Eswar ,Chinna ,6175637000,Eswar.Chinna@fidelity.com,NA,Fidelity Investments,NA,NA,"Boston, ",United States,"02210,","245 Summer Street, ",NA,Database Architect 
+Deborah ,Gailloux ,6122911000,Deborah.Gailloux@bestbuy.com,NA,Best Buy ,NA,NA,"Richfield, ",United States,"55423,","7601 Penn Ave. South, ",NA,Data Architect 
+Anil ,Badam ,2105318722,Anil.Badam@usaa.com,NA,USAA,NA,NA,"San Antonio, ",United States,"78288,","9800 Fredericksburg Rd, ",NA,Data Architect 
+Eric,Anderson,6086443430,eanderson@quartzbenefits.com,NA,Quartz Health Solutions,NA,NA,Sauk City,United States,53583,840 Carolina St,NA,Information Security Manager
+Paige,Winnebald,5083897300,paigewinnebald@virtusa.com,NA,Virtusa,NA,NA,Southborough,United States,1772,"132 Turnpike Rd, Ste 300,",NA," Director, Client Services | Healthcare "
+Michael,Diliberto,7026937120,michael.diliberto@mgmresorts.com,NA,MGM Resorts International,NA,NA,Las Vegas,United States,89109,"3600 S Las Vegas Boulevard,",NA,Director Call Center Operations
+Phil,Reges,3193964400,phil.reges@crst.com,NA,CRST International,NA,NA,Cedar Rapids,United States,52401,"201 1st St SE,",NA,Director of Customer Service
+Kevin ,Fullington,7043823853,kevin.fullington@duke-energy.com,NA,Duke Energy Corporation,NA,NA,Charlotte,United States,28202,550 South Tryon St Suite 180,NA,"Manager, Solutions Architecture"
+Scott ,Winters,4108720555,scott.winters@tenable.com,NA,Tenable,NA,NA,Columbia,United States,21046,"7021 Columbia Gateway Dr, Ste 500",NA,Information Security Manager - Architecture and Engineering
+Brigette ,Guyer,8666715353,brigette.guyer@53.com,NA,"Fifth Third Bank, National Association",NA,NA,Cincinnati,United States,45263,38 Fountain Square Plaza,NA,"Director, Enterprise Data Managment"
+Dustin ,Russell,7814642000,dustin.russell@biogen.com,NA,Biogen,NA,NA,Cambridge,United States,2142,300 Binney St,NA,"Sr Manager, Business Insights & Analytics"
+Bill,Ruiz,4108720555,bruiz@tenable.com,NA,Tenable,NA,NA,Columbia,United States,21046,"7021 Columbia Gateway Dr, Ste 500",NA,Manager Business Intelligence
+Alejandra,Ospina,7045574400,aospina@cokeconsolidated.com,NA,Coca Cola Consolidated,NA,NA,Charlotte,United States,28211,4100 COCA COLA Plz,NA,Manager Business Intelligence
+Greg,Edwards,2818723100,greg.edwards@nblenergy.com,NA,Noble Energy,NA,NA,Houston,United States,77070,1001 Noble Energy Way,NA,"IT Enterprise Infrastructure Systems Manager - Sr. IT Admin - Noble Energy, Inc."
+Daniel,Dudzik,2627037000,daniel.dudzik@kohls.com,NA,Kohl'S ,NA,NA,Menomonee Falls,United States,53051,N56 W17000 Ridgewood Drive,NA,Cloud Platform Engineering - Program Manager
+Christian,Mitchell,5037365900,christian.mitchell@oiaglobal.com,NA,Oia Global,NA,NA,Portland,United States,97201,2100 SW River Pkwy,NA,IT Manager Cloud and Infrastructure
+Pasuladi,Jayapraveen,2818705000,jpasuladi@mcdermott.com,NA,Mcdermott International,NA,NA,Houston,United States,77079,757 N Eldridge Pkwy,NA,"Manager IT Pillar - Projects Execution & Delivery, Marine, ERP SCM Cloud"
+Andy,Barrett,8013203200,andy.barrett@niceincontact.com,NA,Incontact,NA,NA,Sandy City,United States,84070,75 W Towne Ridge Parkway Tower 1,NA,Manager Database Administration - DevOps
+Cathy,Ezra,4252599258,cezra@royell.com,NA,Royell Manufacturing Inc,NA,NA,Everett,United States,98201,3817 Smith Ave,NA,Hr Manager
+Aaron,Farris,5136219500,afarris@terillium.com,NA,Terillium,NA,NA,Cincinnati,United States,45202,201 E 5th St,NA,Talent Acquisition Manager
+Manwal,Srinath,9725807670,manwal.srinath@yasmesoft.com,NA,"Yasmesoft, Inc.",NA,NA,Irving,United States,75038,"1212 Corporate Dr, Ste 150",NA,Senior US IT Recruiter
+Shipra,Sharma,4692485001,shipra.sharma@s3bglobal.com,NA,S3B Global,NA,NA,Irving,United States,75063,"10409 N, Mac Arthur Blvd. #117",NA,Recruitment Specialist
+Angela,Burke,4198933636,aburke@checkerdist.com,NA,Checker Distributors,NA,NA,Maumee,United States,43537,"400 W Dussel Dr, Ste B,",NA,Human Resource Manager
+Abby,Curtis,7037785765,acurtis@memoryblue.com,NA,memoryBlue,NA,NA,Tysons,United States,22102,7925 Jones Branch Dr #4100,NA,Talent Recruiter
+Mary,Supplee,5137935400,msupplee@fechheimer.com,NA,Fechheimer,NA,NA,Cincinnati,United States,45242,4545 Malsbary Rd,NA,Corporate Director Of Human Resources
+Judy ,Griffith,9372225992,Judy.Griffith@mwmetals.com,NA,"Midwest Iron & Metal Co., LLC",NA,NA,Dayton,United States,45417,461 Homestead Ave,NA, Accounting Manager 
+Douglas ,Vargas,5085131000,Douglas.Vargas@controllerservice.com,NA,Controller Service & Sales Inc.,NA,NA,Avon,United States,2322,13 Robbie Road,NA, Controller 

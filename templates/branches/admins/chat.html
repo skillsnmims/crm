@@ -1,0 +1,184 @@
+{% extends "portal/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block title %}Create New Admin{% endblock %}
+
+{% block branch_header %}
+    <a class="navbar-brand" href="javascript:;">Admin</a>
+{% endblock %}
+
+{% block custom_head_bottom %}
+        <style>
+        #chatbox .card {
+            padding: 0!important;
+            width: 300px!important;
+            border: solid 1px #04CB28!important;
+            border-radius: 15px;
+            position: absolute;
+            right: 30px!important;
+            bottom: 30px!important;
+        }
+        #chatbox #chatbody{
+            height: 400px!important;
+            overflow-y: scroll;
+        }
+        .adiv {
+            background: #04CB28;
+            border-radius: 15px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            font-size: 12px;
+            height: 46px
+        }
+        .chat {
+            border: none;
+            background: #E2FFE8;
+            font-size: 10px;
+            border-radius: 20px
+        }
+        .bg-white {
+            border: 1px solid #E7E7E9;
+            font-size: 10px;
+            border-radius: 20px
+        }
+        .form-control {
+            border-radius: 12px;
+            width: 220px!important;
+            border: 1px solid #F0F0F0;
+            font-size: 12px
+        }
+        .form-control:focus {
+            box-shadow: none
+        }
+        .form-control::placeholder {
+            font-size: 12px;
+            color: #C4C4C4
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+
+    <div class="content" style="height: 70vh!important;">
+        <i id="chatbox_open_btn" class="fa p-3 img-circle fa-comments text-white font-weight-bold fa-2x" style="border-radius: 100px; background-color: #04CB28; position: absolute; bottom: 30px; right: 30px">
+            <span id="unread_chat_count" style="font-size: 16px!important;"></span>
+        </i>
+        <div class="container justify-content-center" id="chatbox" style="display: none!important;">
+            <audio src="{% static "audios/chat_alert.mp3" %}" hidden id="chat_alert"></audio>
+            <div class="card mt-5">
+                <div class="d-flex flex-row justify-content-between p-3 adiv text-white">
+                    <span class="pb-3">Live chat</span>
+                    <a style="cursor: pointer!important;" id="chatbox_close_btn"><i class="fa fa-2x fa-chevron-down"></i></a>
+                </div>
+                <div id="chatbody">
+                </div>
+                <div class="form-group px-3 d-flex">
+                    <textarea class="form-control" rows="2" id="chat_msg" placeholder="Type your message"></textarea>
+                    <i id="send_chat" style="vertical-align: bottom; border-radius: 100px;background-color: #04CB28; width: 40px; height: 40px" class="fa fa-2x text-center p-auto pt-1 fa-caret-right ml-2 text-white"></i>
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block custom_script_bottom %}
+
+    <script>
+        $(function () {
+            var agent_username = '{{ user.email }}';
+            var chat_alert_url = '{% static "audios/chat_alert.mp3" %}';
+
+            $("#chatbox_open_btn").on("click", function (){
+                $(this).hide();
+                $("#chatbox").slideDown("1000");
+                $("#unread_chat_count").text("");
+            })
+
+            $("#chatbox_close_btn").on("click", function (){
+                $("#chatbox").hide();
+                $("#chatbox_open_btn").show();
+            })
+
+            $("#send_chat").on('click', function (){
+                let message = $("#chat_msg").val();
+                $("#chat_msg").val("");
+                sendSocketMsg({'command': "CHAT_MESSAGE", 'info_dict': {'message': message}});
+            })
+
+            function receiveChatMessage(infoDict){
+                let message = infoDict.message;
+                let username = infoDict.username;
+                let user_type = infoDict.user_type;
+                let team = infoDict.team;
+                let bg_color = '#E2FFE8';
+                if (user_type !== "AG"){
+                    bg_color = '#ccf3ff';
+                }
+                let elem = '';
+                if (agent_username === username) {
+                    elem = `<div class="d-flex flex-row py-1 p-2">` +
+                                    `<div class="bg-white mr-2 p-3"><span class="text-muted">${message}</span></div>` +
+                                `</div>`;
+                }
+                else{
+                    $("#chat_alert")[0].play();
+                    {#var audio = new Audio(chat_alert_url);#}
+                    {#                audio.play();#}
+
+                    elem = `<div class="d-flex float-right flex-row py-1 p-2">` +
+                                    `<div class="chat ml-2 p-3" style="background-color: ${bg_color}">` +
+                                        `<b class="text-dark">(${team}) ${username}</b><br>`+
+                                        `${message}` +
+                                    `</div>`+
+                                `</div>` +
+                            `<div class="clearfix"></div>`;
+                }
+                if ($("#chatbody").is(":hidden")){
+                    let unread = $("#unread_chat_count").text();
+                    let new_unread = 1;
+                    if (unread != ""){
+                        new_unread = parseInt(unread) + 1;
+                    }
+                    $("#unread_chat_count").text(new_unread);
+                }
+                $("#chatbody").append(elem).scrollTop($("#chatbody")[0].scrollHeight);
+
+            }
+
+            function sendSocketMsg(obj){
+                socket.send(JSON.stringify(obj));
+            }
+
+            // Correctly decide between ws:// and wss://
+            var ws_scheme = window.location.protocol === "https:" ? "wss" : "ws";
+            var ws_path = ws_scheme + '://' + window.location.host + "/ws/branch-admin/";
+            var socket = new WebSocket(ws_path);
+
+            // Handle incoming messages
+            socket.onmessage = function (message) {
+                var data = JSON.parse(message.data);
+                let command = data.command;
+                if (command == 'CHAT_MESSAGE'){
+                    console.log("condition");
+                    receiveChatMessage(data.info_dict);
+                }
+            };
+
+            socket.onopen = function () {
+                console.log("Connected to server");
+            };
+
+            socket.onerror = function (error) {
+               console.log("ws error");
+            };
+
+            socket.onclose = function () {
+                console.log("ws disconnected");
+            };
+        });
+
+    </script>
+
+{% endblock %}

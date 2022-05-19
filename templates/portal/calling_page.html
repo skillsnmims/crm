@@ -1,0 +1,691 @@
+{% load crispy_forms_tags %}
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static "img/logo-square.png" %}">
+    <link rel="icon" type="image/png" href="{% static "img/logo-square.png" %}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+{#    <title>CRM Oceanone</title>#}
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet" />
+    <link href="{% static "css/paper-dashboard.css" %}" rel="stylesheet" />
+
+    <style>
+
+        table{
+            overflow: scroll;
+        }
+        .col-lg-3, .col-lg-9{
+            padding: 7px!important;
+        }
+        .card{
+            border-radius: 0;
+            box-shadow: none;
+            margin: 0!important;
+            padding: 5px!important;
+        }
+        .amt-tab{
+            color: grey!important;
+        }
+        .amt-active-tab{
+            color: #51bcda!important;
+        }
+    </style>
+    <style>
+        #chatbox .card {
+            padding: 0!important;
+            width: 300px!important;
+            border: solid 1px #04CB28!important;
+            border-radius: 15px;
+            position: absolute;
+            right: 30px!important;
+            bottom: 30px!important;
+        }
+        #chatbox #chatbody{
+            height: 400px!important;
+            overflow-y: scroll;
+        }
+        .adiv {
+            background: #04CB28;
+            border-radius: 15px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            font-size: 12px;
+            height: 46px
+        }
+        .chat {
+            border: none;
+            background: #E2FFE8;
+            font-size: 10px;
+            border-radius: 20px
+        }
+        .bg-white {
+            border: 1px solid #E7E7E9;
+            font-size: 10px;
+            border-radius: 20px
+        }
+        .form-control {
+            border-radius: 12px;
+            width: 220px!important;
+            border: 1px solid #F0F0F0;
+            font-size: 12px
+        }
+        .form-control:focus {
+            box-shadow: none
+        }
+        .form-control::placeholder {
+            font-size: 12px;
+            color: #C4C4C4
+        }
+    </style>
+
+</head>
+
+
+
+
+<body style="background-color: #f4f3ef!important;">
+    <nav class="navbar navbar-expand-lg navbar-absolute bg-info fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-wrapper">
+{#              <a class="navbar-brand" href="javascript:;">Oceanone</a>#}
+                    <a class="navbar-brand">
+                        CMS
+{#                        <img src="{% static "img/logo.png" %}" height="30px">#}
+                    </a>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item btn-rotate dropdown">
+                        <a class="nav-link dropdown-toggle amt-default-click-dropdown" id="current_activity" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-circle text-success"></i> <span>Online </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="current_activity" id="activity_nav">
+                            <a class="dropdown-item" id="set_online" style="display: none">
+                                <i class="fa fa-circle text-success"></i> <span> Online </span>
+                            </a>
+                            <a class="dropdown-item" id="set_break">
+                                <i class="fa fa-circle text-warning"></i> <span>Break </span>
+                            </a>
+                            <a class="dropdown-item" id="set_offline">
+                                <i class="fa fa-circle text-gray"></i> <span>Offline </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item btn-rotate dropdown">
+                        <a class="nav-link dropdown-toggle amt-default-click-dropdown" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ request.user.get_agent_name }}
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="{% url "accounts:logout" %}">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="clearfix"></div>
+    <br><br><br><br>
+    <div id="call_section">
+        <p id="chat"></p>
+            {% if call %}
+                <div class="container-fluid" style="padding: 30px; padding-top: 10px!important;">
+                    {% if is_pending %}
+                        <div class="row" id="last_disposition_alert">
+                            <div class="col-lg-12">
+                                <span class="alert alert-warning mx-0">Please submit DISPOSITION of last call!</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <br>
+                    {% endif %}
+                    <div class="row">
+                        <div class="amt_col col-lg-9">
+                            <div class="row">
+                                <div class="amt_col col-lg-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            CALL SUMMARY
+                                        </div>
+                                        <div class="card-body">
+
+                                            <table class="table">
+                                                <tr>
+                                                    <th>BRAND</th>
+                                                    <td class="font-weight-bold m-0 p-0 text-info">
+                                                        OCEANONE
+                                                    </td>
+                                                    <th>SOURCE</th>
+                                                    <td class="font-weight-bold m-0 p-0 text-info">
+                                                        OCEANONE
+                                                    </td>
+                                                    <th>TIMEZONE</th>
+{#                                                    <td class="font-weight-bold m-0 p-0 text-info">{{ campaign.timezone_str|default:"-" }}</td>#}
+                                                    <td class="font-weight-bold m-0 p-0 text-info">
+                                                        <span id="p_timezone">{{ call.prospect.timezone|default:'-' }}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>CONNECTION</th>
+                                                    <td>Outbound</td>
+                                                    <th>CREATED</th>
+                                                    <td>-</td>
+                                                    <th>REDIAL</th>
+                                                    <td>xxxx-xxxx-xxxx</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row px-2">
+                                <div class="amt_col col-lg-9">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            PROSPECT GENERATION
+                                            {% if is_callback %}
+                                                <span id="callback_badge" class="badge badge-info">Callback</span>
+                                            {% endif %}
+                                        </div>
+                                        <div class="card-body">
+                                            <table class="table">
+                                                <tr>
+                                                    <th>NAME</th>
+                                                    <td>
+                                                        <span id="p_first_name">{{ call.prospect.first_name }}</span>
+                                                        <span id="p_last_name">{{ call.prospect.last_name }}</span>
+                                                    </td>
+                                                    <th>COMPANY</th>
+                                                    <td id="p_company">{{ call.prospect.company|default:"-" }}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>PHONE</th>
+							<td id="p_phone">
+							    {% if campaign.is_domestic %}
+							        <a href="tel:{{ call.prospect.phone }}" class="btn btn-info">{{ call.prospect.phone }}</a>
+							    {% else %}
+							        {{ call.prospect.phone }}
+							    {% endif %}
+							</td>
+
+
+                                                    <th>ROLE</th>
+                                                    <td id="p_job_title">{{ call.prospect.job_title|default:"-" }}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>EMAIL</th>
+                                                    <td id="p_email">{{ call.prospect.email|default:"-" }}</td>
+                                                    <th>INDUSTRY</th>
+                                                    <td id="p_industry">{{ call.prospect.industry|default:"-" }}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>ADDRESS</th>
+                                                    <td id="p_address">{{ call.prospect.address_1|default:"-" }}</td>
+                                                    <th>EMP RANGE</th>
+                                                    <td id="p_emp_range">{{ call.prospect.c_emp_range|default:"-" }}</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="amt_col col-lg-3">
+                                    <div class="card" style="height: 100%!important;">
+                                        <div class="card-header">ASSET</div>
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="amt_col col-lg-4 m-auto p-auto">
+                                                        <i class="amt-li-icon bg-info p-3 fa fa-file text-white" style="border-radius: 100px!important;"></i>
+                                                    </div>
+                                                    <div class="amt_col col-lg-8 font-weight-bold text-black-50">
+                                                        {{ campaign.asset_name }}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row px-2">
+                                <div class="amt_col col-lg-3">
+                                    <div class="card">
+                                        <div class="list-group" style="color: grey!important;">
+                                            <a href="#" tab_target="questions_tab" class="amt-tab amt-active-tab list-group-item waves-light" mdbWavesEffect><i class="fa fa-comments amt-li-icon"></i> Script</a>
+                                            <a href="#" tab_target="confirm_tab" class="amt-tab list-group-item waves-light" mdbWavesEffect><i class="fa fa-check amt-li-icon"></i> Confirm</a>
+                                            <a href="#" tab_target="consent_tab" class="amt-tab list-group-item waves-light" mdbWavesEffect><i class="fa fa-link amt-li-icon"></i> Consent</a>
+                                            <a href="#" tab_target="rebuttal_tab" class="amt-tab list-group-item waves-light" mdbWavesEffect><i class="fa fa-link amt-li-icon"></i> Rebuttal</a>
+                                            <a href="#" tab_target="notes_tab" class="amt-tab list-group-item waves-light" mdbWavesEffect><i class="fa fa-file amt-li-icon"></i> Notes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="amt_col col-lg-9">
+                                    <div class="card border-info" style="border-width: 2px">
+                                        <div class="card-body">
+                                            <div class="card" style="box-shadow: none!important;border-bottom: none">
+                                                <div class="card-body" style="background:  #efeff5">
+                                                    <div id="questions_tab" class="amt-tab-content">
+                                                        <p class="font-weight-bold text-info">Script : </p>
+                                                        <p class="font-weight-bold my-0 text-secondary">( Opining )</p>
+                                                        <div class="font-weight-bold dark-grey-text">
+                                                            <p>{{ campaign.questions|linebreaks }}</p>
+                                                        </div>
+                                                        <br>
+                                                    </div>
+                                                    <div id="consent_tab" class="amt-tab-content" style="display: none">
+                                                        <p class="font-weight-bold text-info">Consent : </p>
+                                                        <div class="font-weight-bold dark-grey-text">
+                                                            <p>{{ campaign.consent|linebreaks  }}</p>
+                                                        </div>
+                                                        <br>
+                                                    </div>
+                                                    <div id="rebuttal_tab" class="amt-tab-content" style="display: none">
+                                                        <p class="font-weight-bold text-info">Rebuttal : </p>
+                                                        <div class="font-weight-bold dark-grey-text">
+                                                            <p>{{ campaign.rebuttal|linebreaks  }}</p>
+                                                        </div>
+                                                        <br>
+                                                    </div>
+                                                    <div id="confirm_tab" class="amt-tab-content" style="display: none">
+                                                        <p class="font-weight-bold text-info">Confirm : </p>
+                                                        <p class="font-weight-bold my-0 text-secondary">( Questions )</p>
+                                                        <div class="font-weight-bold dark-grey-text">
+                                                            <p>{{ campaign.confirm|linebreaks  }}</p>
+                                                        </div>
+                                                        <br>
+                                                    </div>
+                                                    <div id="notes_tab" class="amt-tab-content" style="display: none">
+                                                        <p class="font-weight-bold">Notes : </p>
+                                                        <textarea id="dummy_call_notes" style="width: 100%"></textarea>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="amt_col col-lg-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    DIALER
+                                </div>
+                                <div class="card-body text-center m-auto">
+                                            <div style="text-align: left; z-index: 999999!important;">
+
+            <div id="events" style="width: 13em;"></div>
+        </div>
+        <div id="video_container" style="display: none;"></div>
+
+                                    <div>
+                                        <p style="font-size: 12px" class="font-weight-bold text-info">WRAP UP TIMER : 00:34</p>
+                                        <input value="xxxx-xxxx-xxxx" class="bg-light btn-sm border-0 " disabled contenteditable="false" style="box-shadow: none; margin-bottom: 5px">
+                                        <br>
+                                        <button hidden class="btn btn-outline-warning btn-sm btn-bdlock amt-plain-btn" style="box-shadow: none!important; margin-bottom: 5px">MUTE</button>
+                                        <button hidden class="btn btn-outline-primary btn-sm btn-dblock amt-plain-btn" style="box-shadow: none!important; margin-bottom: 5px">Hold</button>
+                                        <br>
+                                        <button onclick="Hangup();" class="btn btn-danger btn-sm btdn-block amt-plain-btn" style="box-shadow: none!important; margin-bottom: 5px">Disconnect</button>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-header">
+                                    DISPOSITION
+                                </div>
+                                <div class="card-body">
+                                    <div class="disposition-form">
+                                        <form method="post" action="{% url "portal:calling_page" %}" id="result_form">
+                                            {% csrf_token %}
+                                            <input hidden name="call_id" value="{{ call.id }}">
+
+						<input name="call_notes" id="call_notes" hidden>
+						<p class="text-warning font-weight-bold" style="display: none" id="form_error">Please select disposition and write comment if FAILURE</p>
+                                                <input required type="radio" name="call_response" value="SC" id="call_sc"> <label for="call_sc">LEAD</label>
+<br>
+					    {% if campaign.is_domestic %}
+						<input required type="radio" name="call_response" value="DM_FP" id="call_dm_fp"> <label for="call_dm_fp">Follow up</label>
+						<br>
+						<input required type="radio" name="call_response" value="DM_CL" id="call_dm_cl"> <label for="call_dm_cl">Close</label>
+						<br>
+						<input required type="radio" name="call_response" value="DM_NE" id="call_dm_le"> <label for="call_dm_le">Not Eligible</label>
+						<br>
+						<input required type="radio" name="call_response" value="DM_NI" id="call_dm_ni"> <label for="call_dm_ni">Not Interested</label>
+						<br>
+						<input required type="radio" name="call_response" value="DM_BD" id="call_dm_bd"> <label for="call_dm_bd">Bad Contact</label>
+						<br>
+						<input required type="radio" name="call_response" value="DM_WN" id="call_dm_wn"> <label for="call_dm_wn">Wrong No</label>
+						<br>
+						<input required type="radio" name="call_response" value="DM_LS" id="call_dm_ls"> <label for="call_dm_ls">Low Salary</label>
+						<br>
+						<input required type="radio" name="call_response" value="DM_HI" id="call_dm_hi"> <label for="call_dm_hi">Health Insurance</label>
+						<br>
+						<input required type="radio" name="call_response" value="DM_LI" id="call_dm_li"> <label for="call_dm_li">Life Insurance</label>
+						<br>
+						<input required type="radio" name="call_response" value="DM_PL" id="call_dm_pl"> <label for="call_dm_pl">Personal Loan</label>
+						<br>
+						<input required type="radio" name="call_response" value="DM_HL" id="call_dm_hl"> <label for="call_dm_hl">Home Loan</label>
+						<br>
+                                                <input required type="radio" name="call_response" value="DM_RG" id="call_dm_rg"> <label for="call_dm_rg">Ringing</label>
+						<br>
+                                                <input required type="radio" name="call_response" value="CB" id="call_cb"> <label for="call_cb">CALLBACK</label>
+                                                <br>	
+					    {% else %}
+	                                            <input required type="radio" name="call_response" value="CN" id="call_cn"> <label for="call_cn">CONNECT</label>
+	                                            <br>
+	                                            <input required type="radio" name="call_response" value="FL" id="call_fl"> <label for="call_fl">FAILURE</label>
+	                                            <br>
+	                                            <input required type="radio" name="call_response" value="DNC" id="call_dnc"> <label for="call_dnc">DNCL</label>
+	                                            <br>
+	                                            <input required type="radio" name="call_response" value="CB" id="call_cb"> <label for="call_cb">CALLBACK</label>
+	                                            <br>
+	                                            <input required type="radio" name="call_response" value="WN" id="call_wn"> <label for="call_wn">BAD CONTACT</label>
+	                                            <br>
+	                                            <input required type="radio" name="call_response" value="AM" id="call_am"> <label for="call_am">ANS MACH</label>
+	                                            <br>
+	                                            <input name="call_comment" id="call_comment" placeholder="Write a comment about failure" type="text" class="form-control" style="display:none; width: auto">
+	                                            <br>
+					    {% endif %}
+                                            <button class="btn btn-info" type="button" id="result_form_submit">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                {% if not team %}
+                    <h4 id="no_team_message" class="text-center main_message text-black-50">You don't have any team assigned! Please contact admin.</h4>
+                {% elif not campaign %}
+                    <h4 id="no_campaign_message" class="text-center main_message text-black-50">You don't have any campaign assigned! Please contact admin.</h4>
+                {% else %}
+                    <h4 id="no_calls_message" class="text-center main_message text-black-50">No Calls Available! Please contact admin.</h4>
+                {% endif %}
+            {% endif %}
+    </div>
+    <div id="break_section" style="display: none" class="container text-center">
+                  <div class="container mt-5" style="margin-top: 200px!important;">
+                      <i class="fa fa-5x mt-3 fa-coffee text-dark" style="font-size: 200px"></i>
+                      <h4 class="text-center"><span class="text-dark font-weight-normal text-center">Enjoy Break</span></h4>
+                      <h5 style="margin-top: -2px" class="text-center"><span class="text-dark font-weight-normal text-center">Please be on time after break !</span></h5>
+                  </div>
+              </div>
+    <div id="offline_section" style="display: none" class="container text-center">
+                  <div class="container mt-5" style="margin-top: 200px!important;">
+                      <i class="fa fa-5x mt-3 fa-power-off text-dark" style="font-size: 200px"></i>
+                      <h4 class="text-center"><span class="text-dark font-weight-normal text-center">Offline</span></h4>
+                      <h5 style="margin-top: -2px" class="text-center"><span class="text-dark font-weight-normal text-center">Please connect online to start calling !</span></h5>
+                  </div>
+              </div>
+    <div id="getting_issues_section" style="display: none" class="container text-center">
+          <div class="container mt-5" style="margin-top: 200px!important;">
+              <i class="fa fa-5x mt-3 fa-eject text-dark" style="font-size: 200px"></i>
+              <h4 class="text-center"><span class="text-dark font-weight-normal text-center">Error</span></h4>
+              <h5 style="margin-top: -2px" class="text-center"><span class="text-dark font-weight-normal text-center">Getting issues! please try to refresh the page.</span></h5>
+          </div>
+    </div>
+    <div id="no_call_section" style="display: none" class="container text-center">
+          <div class="container mt-5" style="margin-top: 200px!important;">
+              <i class="fa fa-5x mt-3 fa-eject text-dark" style="font-size: 200px"></i>
+              <h4 style="display: none" id="no_team_message" class="text-center main_message text-black-50">You don't have any team assigned! Please contact admin.</h4>
+              <h4 style="display: none" id="no_campaign_message" class="text-center main_message text-black-50">You don't have any campaign assigned! Please contact admin.</h4>
+              <h4 style="display: none" id="no_calls_message" class="text-center main_message text-black-50">No Calls Available! Please contact admin.</h4>
+          </div>
+    </div>
+    <i id="chatbox_open_btn" class="fa p-3 img-circle fa-comments text-white font-weight-bold fa-2x" style="border-radius: 100px; background-color: #04CB28; position: absolute; bottom: 30px; right: 30px">
+        <span id="unread_chat_count" style="font-size: 16px!important;"></span>
+    </i>
+    <div class="container justify-content-center" id="chatbox" style="display: none!important;">
+        <audio src="{% static "audios/chat_alert.mp3" %}" hidden id="chat_alert"></audio>
+        <div class="card mt-5">
+            <div class="d-flex flex-row justify-content-between p-3 adiv text-white">
+                <span class="pb-3">Live chat</span>
+                <a style="cursor: pointer!important;" id="chatbox_close_btn"><i class="fa fa-2x fa-chevron-down"></i></a>
+            </div>
+            <div id="chatbody">
+            </div>
+            <div class="form-group px-3 d-flex">
+                <textarea class="form-control" rows="2" id="chat_msg" placeholder="Type your message"></textarea>
+                <i id="send_chat" style="vertical-align: bottom; border-radius: 100px;background-color: #04CB28; width: 40px; height: 40px" class="fa fa-2x text-center p-auto pt-1 fa-caret-right ml-2 text-white"></i>
+            </div>
+            <br><br>
+        </div>
+    </div>
+
+    <script src="{% static "js/core/jquery.min.js" %}"></script>
+    <script src="{% static "js/core/popper.min.js" %}"></script>
+    <script src="{% static "js/core/bootstrap.min.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/mdb.min.js" %}"></script>
+    <script>
+
+        $("#chatbox_open_btn").on("click", function (){
+            $(this).hide();
+            $("#chatbox").slideDown("1000");
+            $("#unread_chat_count").text("");
+        })
+
+        $("#chatbox_close_btn").on("click", function (){
+            $("#chatbox").hide();
+            $("#chatbox_open_btn").show();
+        })
+
+        let result_form_elem = $("#result_form");
+        result_form_elem.find("input[name='call_response']").on("change", function(){
+            if (result_form_elem.find("input[name='call_response']:checked").val() === "FL"){
+                $("#result_form #call_comment").show().prop("required", true);
+            }
+            else{
+                $("#result_form #call_comment").hide().prop("required", false).val('');
+            }
+        })
+
+        $("#result_form_submit").on("click", function (){
+            $("#call_notes").val($("#dummy_call_notes").val());
+            if (result_form_elem.find("input[name='call_response']:checked").val() !== undefined){
+                if ($("#result_form #call_comment").prop("required") &&  $("#result_form #call_comment").val() === ''){
+                    result_form_elem.find("#form_error").show();
+                }
+                else{
+                    let data = {
+                        'call_response': result_form_elem.find("input[name='call_response']:checked").val(),
+                        'call_id': result_form_elem.find("input[name='call_id']").val(),
+                        'call_notes': result_form_elem.find("input[name='call_notes']").val(),
+                        'call_comment': result_form_elem.find("input[name='call_comment']").val(),
+                    };
+                    $.ajax({
+                        method: 'post',
+                        data: data,
+                        url: "{% url "portal:calling_page" %}",
+
+                        success: function (res){
+                            result_form_elem.get(0).reset();
+                            $("#call_notes").val("");
+                            let response = res;
+                            $(".main_message").hide();
+                            if (response.has_call){
+                                let call = response.call;
+                                result_form_elem.find("input[name='call_id']").val(call.call_id);
+                                $("#p_first_name").text(call.first_name);
+                                $("#p_timezone").text(call.timezone);
+                                $("#p_last_name").text(call.last_name);
+                                $("#p_job_title").text(call.job_title);
+                                $("#p_company").text(call.company);
+                                $("#p_emp_range").text(call.emp_range);
+                                $("#p_phone").text(call.phone);
+                                $("#p_address").text(call.address);
+                                $("#p_industry").text(call.industry);
+                                $("#p_email").text(call.email);
+                                if (response.is_pending){
+                                    $("#last_disposition_alert").show();
+                                }
+                                else{
+                                    $("#last_disposition_alert").show();
+                                }
+                                if (response.is_callback){
+                                    $("#callback_badge").show();
+                                }
+                                else{
+                                    $("#callback_badge").show();
+                                }
+                            }
+                            else{
+                                if (!response.team){
+                                    $("#no_team_message").show();
+                                }
+                                else if (!response.campaign){
+                                    $("#no_campaign_message").show();
+                                }
+                                else{
+                                    $("#no_calls_message").show();
+                                }
+                                $("#call_section").hide();
+                                $("#no_call_section").show();
+                            }
+                            console.log(response);
+                        },
+                        error: function (err){
+                            console.log("error");
+                            $("#call_section").slideUp(500, function (){
+                                $("#getting_issues_section").slideDown(500);
+                            });
+                        },
+                    })
+                }
+            }
+            else{
+                result_form_elem.find("#form_error").show();
+            }
+        })
+        $(".amt-tab").on("click", function () {
+            $(".amt-tab-content").hide();
+            $("#" + $(this).attr("tab_target")).show();
+            $(".amt-tab").removeClass("amt-active-tab");
+            $(this).addClass("amt-active-tab");
+        })
+    </script>
+
+    <script>
+        $(function () {
+
+            var agent_username = '{{ user.email }}';
+            var chat_alert_url = '{% static "audios/chat_alert.mp3" %}';
+
+            $("#send_chat").on('click', function (){
+                let message = $("#chat_msg").val();
+                $("#chat_msg").val("");
+                sendSocketMsg({'command': "CHAT_MESSAGE", 'info_dict': {'message': message}});
+            })
+
+            function receiveChatMessage(infoDict){
+                /* Audio link for notification */
+                let message = infoDict.message;
+                let username = infoDict.username;
+                let user_type = infoDict.user_type;
+                let team = infoDict.team;
+                let bg_color = '#E2FFE8';
+                if (user_type !== "AG"){
+                    bg_color = '#ccf3ff';
+                }
+                let elem = '';
+                if (agent_username === username) {
+                    elem = `<div class="d-flex flex-row py-1 p-2">` +
+                                    `<div class="bg-white mr-2 p-3"><span class="text-muted">${message}</span></div>` +
+                                `</div>`;
+                }
+                else{
+                    $("#chat_alert")[0].play();
+                    {#var audio = new Audio(chat_alert_url);#}
+                    {#                audio.play();#}
+
+                    elem = `<div class="d-flex float-right flex-row py-1 p-2">` +
+                                    `<div class="chat ml-2 p-3" style="background-color: ${bg_color}">` +
+                                        `<b class="text-dark">(${team}) ${username}</b><br>`+
+                                        `${message}` +
+                                    `</div>`+
+                                `</div>` +
+                            `<div class="clearfix"></div>`;
+                }
+                if ($("#chatbody").is(":hidden")){
+                    console.log("condition")
+                    let unread = $("#unread_chat_count").text();
+                    let new_unread = 1;
+                    if (unread != ""){
+                        new_unread = parseInt(unread) + 1;
+                    }
+                    $("#unread_chat_count").text(new_unread);
+                }
+                $("#chatbody").append(elem).scrollTop($("#chatbody")[0].scrollHeight);
+
+            }
+
+            $("#activity_nav #set_break").on("click", function (){
+                sendSocketMsg({'command': 'SET_BREAK', 'info_dict': {}});
+                $("#activity_nav #set_online, #activity_nav #set_offline").show();
+                $("#activity_nav #set_break").hide();
+                $("#current_activity i").removeClass("text-success", "text-gray").addClass("text-warning");
+                $("#current_activity span").text("Break");
+                $("#call_section , #offline_section").slideUp(500, function (){
+                    $("#break_section").slideDown(500);
+                });
+            })
+
+            $("#activity_nav #set_offline").on("click", function (){
+                sendSocketMsg({'command': 'SET_OFFLINE', 'info_dict': {}});
+                $("#activity_nav #set_online, #activity_nav #set_break").show();
+                $("#activity_nav #set_offline").hide();
+                $("#current_activity i").removeClass("text-success", "text-warning").addClass("text-gray");
+                $("#current_activity span").text("Offline");
+                $("#call_section, #break_section").slideUp(500, function (){
+                    $("#offline_section").slideDown(500);
+                });
+            })
+
+            $("#activity_nav #set_online").on("click", function (){
+                $("#offline_section, #break_section").slideUp(500, function (){
+                    window.location.href = window.location.href;
+                });
+            })
+
+            function sendSocketMsg(obj){
+                socket.send(JSON.stringify(obj));
+            }
+
+            // Correctly decide between ws:// and wss://
+            var ws_scheme = window.location.protocol === "https:" ? "wss" : "ws";
+            var ws_path = ws_scheme + '://' + window.location.host + "/ws/agent/";
+            var socket = new WebSocket(ws_path);
+
+            // Handle incoming messages
+            socket.onmessage = function (message) {
+                var data = JSON.parse(message.data);
+                let command = data.command;
+                if (command == 'CHAT_MESSAGE'){
+                    receiveChatMessage(data.info_dict);
+                }
+            };
+
+            socket.onopen = function () {
+                console.log("Connected to server");
+            };
+
+            socket.onerror = function (error) {
+               console.log("ws error");
+            };
+
+            socket.onclose = function () {
+                console.log("ws disconnected");
+            };
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+{% extends "portal/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Update Campaign{% endblock %}
+
+
+{% block content %}
+    <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Edit Campaign | {{ campaign.name }}</h4>
+              </div>
+              <div class="card-body">
+                  <form class="form" method="post" action="{% url "campaigns:update" id=campaign.id %}">
+                      {% csrf_token %}
+                      {{ form|crispy }}
+                      <div class="text-center">
+                          <input class="btn btn-default" type="submit" value="Save Changes">
+                      </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}
+{% block custom_script_bottom %}
+    <script>
+        $(function (){
+            $('#id_timezone_type').change()
+        })
+    </script>
+{% endblock %}

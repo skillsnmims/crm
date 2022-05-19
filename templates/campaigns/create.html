@@ -1,0 +1,38 @@
+{% extends "portal/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Create New Campaign{% endblock %}
+
+
+{% block content %}
+  <!-- Navbar -->
+  {% include "portal/navbar.html" with page_heading="Create New Campaign" %}
+  <!-- End Navbar -->
+    <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Create New Campaign</h4>
+              </div>
+              <div class="card-body">
+                  <form class="form" method="post" action="{% url "campaigns:create" %}">
+                      {% csrf_token %}
+                      {{ form|crispy }}
+                      <div class="text-center">
+                          <input class="btn btn-default" type="submit" value="Create">
+                      </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}
+{% block custom_script_bottom %}
+    <script>
+        $(function (){
+            $('#id_timezone_type').change()
+        })
+    </script>
+{% endblock %}

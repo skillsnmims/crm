@@ -1,0 +1,96 @@
+{% extends "portal/base.html" %}
+
+{% block title %}All Agents{% endblock %}
+
+
+{% block content %}
+    <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title float-left">All Agents</h4>
+                  <a href="{% url "agents:create" %}" class="btn float-right btn-outline-default">Create</a>
+              </div>
+              <div class="card-body">
+{#                <div class="table-responsive">#}
+                <div >
+                    <div class="team_filter_section m-auto p-0 clearfix">
+                        <label for="team_filter">Select Team</label>
+                        <select class="form-control" id="team_filter">
+                            <option value="">All Team</option>
+                            {% for team in teams %}
+                                <option value="{{ team.name }}">{{ team }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="">
+                  <table class="table" id="agent_table">
+                    <thead class=" text-primary">
+                      <th>No</th>
+                      <th>Team</th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Agent ID</th>
+                      <th>Activity</th>
+                      <th>Last Call</th>
+                      <th>Actions</th>
+                    </thead>
+                    <tbody>
+                        {% for agent in agents %}
+                            <tr>
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{ agent.team.name }}</td>
+                                <td>{{ agent.name }} </td>
+                                <td>{{ agent.user.email }}</td>
+                                <td>{{ agent.agent_id }}</td>
+                                <td>
+                                    {% with agent.agentactivity as activity %}
+                                        {% if activity.status == "ON" %}
+                                            <span><i class="fa fa-circle text-success"></i></span>
+                                            <span class="text-muted" style="font-size: 13px">active since {{ agent.agentactivity.get_last_seen|default:"-" }}</span>
+                                        {% elif activity.status == "OF" %}
+                                            <span><i class="fa fa-circle text-gray"></i></span>
+                                            <span class="text-muted" style="font-size: 13px">last seen {{ agent.agentactivity.get_last_seen|default:"-" }}</span>
+                                        {% else %}
+                                            <span><i class="fa fa-circle text-warning"></i></span>
+                                            <span class="text-muted" style="font-size: 13px">last seen {{ agent.agentactivity.get_last_seen|default:"-" }}</span>
+                                        {% endif %}
+                                    {% endwith %}
+                                </td>
+                                <td>{{ agent.call_set.last.created_on|date:"h:i A - d/m/Y"|default:"-" }}</td>
+                                <td>
+                                    <a href="{% url "agents:detail" id=agent.id %}"><i class="fa fa-eye text-dark mr-2 amt_fa_medium"></i></a>
+                                    <a href="{% url "agents:update" id=agent.id %}"><i class="fa fa-edit text-info mr-2 amt_fa_medium"></i></a>
+                                    <a onclick="(function() {if (confirm('Do you really want to delete this?\nIt will remove everything about this agent!')){document.getElementById('agent_delete_{{ agent.id }}').submit();}})();"><i class="fa fa-trash-o text-danger amt_fa_medium"></i></a>
+{#                                    <a href="{% url "agents:detail" id=agent.id %}" class="btn m-1 btn-default">View</a>#}
+{#                                    <a href="{% url "agents:update" id=agent.id %}" class="btn m-1 btn-info">Edit</a>#}
+{#                                    <button class="btn btn-danger m-1" onclick="(function() {if (confirm('Do you really want to delete this?\nIt will remove everything about this agent!')){document.getElementById('agent_delete_{{ agent.id }}').submit();}})();">Delete</button>#}
+                                    <form style="display: none" method="post" id="agent_delete_{{ agent.id }}" action="{% url "agents:delete" id=agent.id %}">
+                                        {% csrf_token %}
+                                    </form>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}
+
+{% block custom_script_bottom %}
+    <script>
+        $(function () {
+            let agent_table = $("#agent_table").DataTable();
+            $("#team_filter").on("change", function () {
+                agent_table.column(1).search($(this).val()).draw();
+            })
+        })
+    </script>
+{% endblock %}

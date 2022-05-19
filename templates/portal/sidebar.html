@@ -1,0 +1,89 @@
+{% load static %}
+<div class="sidebar" data-color="white" data-active-color="danger">
+      <div class="logo">
+        <a href="#" class="simple-text logo-mini">
+          <div class="logo-image-small">
+            <img src="{% static "img/logo-square.png" %}">
+          </div>
+          <!-- <p>CT</p> -->
+        </a>
+        <a href="#" class="simple-text logo-normal">
+          Oceanone
+          <!-- <div class="logo-image-big">
+            <img src="../assets/img/logo-big.png">
+          </div> -->
+        </a>
+      </div>
+    <div class="sidebar-wrapper">
+    <ul class="nav">
+      {% if request.user.is_super_admin %}
+        <li>
+            <a href="{% url "branches:list" %}" class="amt_nav_link">
+              <i class="nc-icon nc-bank"></i>
+              <p>Branches</p>
+            </a>
+        </li>
+        <li>
+            <a href="{% url "branches:admins_list" %}" class="amt_nav_link">
+              <i class="nc-icon nc-circle-10"></i>
+              <p>Branch Admins</p>
+            </a>
+        </li>
+      {% endif %}
+      <li class="">
+        <a href="{% url "portal:dashboard" %}" class="amt_nav_link">
+          <i class="nc-icon nc-chart-pie-36"></i>
+          <p>Dashboard</p>
+        </a>
+      </li>
+      {% if user.is_super_admin or user.is_branch_admin %}
+        <li>
+            <a href="{% url "teams:list" %}" class="amt_nav_link">
+              <i class="nc-icon nc-bullet-list-67"></i>
+              <p>Teams</p>
+            </a>
+        </li>
+        <li>
+            <a href="{% url "agents:list" %}" class="amt_nav_link">
+              <i class="nc-icon nc-circle-10"></i>
+              <p>Agents</p>
+            </a>
+        </li>
+        <li>
+            <a href="{% url "prospects:list" %}" class="amt_nav_link">
+              <i class="nc-icon nc-paper"></i>
+              <p>Data</p>
+            </a>
+        </li>
+        {% if request.user.is_super_admin %}
+            <li>
+                <a href="{% url "branches:visitors_list" %}" class="amt_nav_link">
+                  <i class="nc-icon nc-circle-10"></i>
+                  <p>Visitors</p>
+                </a>
+            </li>
+        {% endif %}
+        <li>
+            <a href="{% url "campaigns:list" %}" class="amt_nav_link">
+              <i class="nc-icon nc-send"></i>
+              <p>Campaigns</p>
+            </a>
+        </li>
+        <li>
+            <a href="{% url "campaigns:disposition_list" %}" class="amt_nav_link">
+              <i class="nc-icon nc-chart-pie-36"></i>
+              <p>Dispositions</p>
+            </a>
+        </li>
+        {% if user.is_branch_admin %}
+            <li>
+                <a href="{% url "branches:chats" %}" class="amt_nav_link">
+                  <i class="fa fa-comments"></i>
+                  <p>Chats</p>
+                </a>
+            </li>
+        {% endif %}
+      {% endif %}
+    </ul>
+    </div>
+</div>

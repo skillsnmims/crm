@@ -1,0 +1,63 @@
+{% extends "portal/base.html" %}
+
+{% block title %}All Data Lists{% endblock %}
+
+
+{% block content %}
+
+    <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title float-left">All Data Lists</h4>
+                  <a href="{% url "prospects:create" %}" class="btn float-right btn-outline-default">Create</a>
+              </div>
+              <div class="card-body">
+{#                <div class="table-responsive">#}
+                <div class="">
+                  <table class="table">
+                    <thead class=" text-primary">
+                        <th>
+                            No
+                        </th>
+                      <th>
+                          Name
+                      </th>
+                      <th>
+                          Data
+                      </th>
+                      {% if not user.is_visitor %}
+                        <th>
+                          Campaign
+                        </th>
+                      {% endif %}
+                      <th>
+                          Created On
+                      </th>
+                      <th>
+                          Actions
+                      </th>
+                    </thead>
+                    <tbody>
+                        {% for prospect_list in prospect_lists %}
+                            <tr>
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{ prospect_list.name }}</td>
+                                <td>{{ prospect_list.get_data_count }}</td>
+                                {% if not user.is_visitor %}
+                                    <td>{{ prospect_list.campaign|default:"-" }}</td>
+                                {% endif %}
+                                <td>{{ prospect_list.created_on|date:"d/m/Y" }}</td>
+                                <td><a href="{% url "prospects:detail" id=prospect_list.id %}" class="btn btn-default">View</a></td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}

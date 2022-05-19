@@ -1,0 +1,60 @@
+{% extends "portal/base.html" %}
+{% load portal_tags %}
+{% load crispy_forms_tags %}
+
+{% block title %}Campaign Disposition | {{ campaign.name }}{% endblock %}
+
+
+{% block custom_head_bottom %}
+    <link href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+  <!-- Navbar -->
+  <!-- End Navbar -->
+    <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <table id="example" class="display table" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>agent</th>
+                            <th>prospect</th>
+                            <th>campaign</th>
+                            <th>response</th>
+                            <th>created_on</th>
+                            <th>notes</th>
+                        </tr>
+                    </thead>
+                </table>
+          </div>
+        </div>
+      </div>
+{% endblock %}
+
+{% block custom_script_bottom %}
+        <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js" rel="script"></script>
+
+    <script>
+        $(function (){
+            let all_calls = {{ json_data|safe }};
+            console.log(all_calls);
+            console.log(typeof all_calls);
+
+            $('#example').DataTable( {
+                "data": all_calls,
+                    "columns": [
+                       {"data": "id"},
+                       {"data": "agent"},
+                       {"data": "prospect"},
+                       {"data": "campaign"},
+                       {"data": "response"},
+                       {"data": "created_on"},
+                       {"data": "notes"},
+                    ]
+            } );
+
+        })
+    </script>
+{% endblock %}

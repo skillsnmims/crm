@@ -1,0 +1,47 @@
+{% extends "portal/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Create New Data List{% endblock %}
+
+{% block custom_head_bottom %}
+    <style>
+        .form-group input[type=file]{
+            opacity: 100%;
+            position: static!important;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                {% if user.is_visitor %}
+                    <a href="{% url "prospects:list" %}" class="text-info"><u>Goto All Data</u></a>
+                    <br>
+                {% endif %}
+                <h4 class="card-title">All Data List</h4>
+                  <a href="{% url "prospects:format_file_download" %}" target="_blank" class="btn btn-info float-right btn-sm">Download Format File <i class="nc-icon nc-cloud-download-93"></i></a>
+              </div>
+              <div class="card-body">
+{#                  <div class="border-info border p-3">#}
+{#                      <p class="text-info">Required Columns : FIRST-NAME, LAST-NAME, JOB-TITLE, PHONE, EMAIL, INDUSTRY, COMPANY, EMP-RANGE, WEBSITE, CITY, COUNTRY, ZIP-CODE, ADDRESS-1, ADDRESS-2</p>#}
+{#                  </div>#}
+                  <form class="form" method="post" action="{% url "prospects:create" %}" enctype="multipart/form-data">
+                      {% csrf_token %}
+                      {{ form|crispy }}
+                      {% if not user.is_visitor %}
+                        <p class="text-warning font-weight-bold">After creating data-list, first verify all data before taking it into any campaign.<br>Remember once data-list assigned to campaign cannot be undo !</p>
+                      {% endif %}
+                      <div class="text-center">
+                          <input class="btn btn-default" type="submit" value="Create">
+                      </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}

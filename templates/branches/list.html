@@ -1,0 +1,75 @@
+{% extends "portal/base.html" %}
+
+{% block title %}All Branches{% endblock %}
+{% block branch_header %}
+    <a class="navbar-brand" href="javascript:;">Admin</a>
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title float-left">All Branches</h4>
+                  <a href="{% url "branches:create" %}" class="btn float-right btn-outline-default">Create</a>
+              </div>
+              <div class="card-body">
+{#                <div class="table-responsive">#}
+                <div class="">
+                  <table class="table">
+                    <thead class=" text-primary">
+                        <th>
+                            No
+                        </th>
+                      <th>
+                        Name
+                      </th>
+                      <th>
+                        Admin
+                      </th>
+                      <th>
+                        Agents
+                      </th>
+                      <th>
+                        Teams
+                      </th>
+                      <th>
+                        Actions
+                      </th>
+                    </thead>
+                    <tbody>
+                        {% for branch in branches %}
+                            <tr>
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{ branch.name }}</td>
+                                <td>
+                                    {% for admin in branch.branchadmin_set.all %}
+                                        {% if not forloop.first %}<br>
+                                        {% endif %}
+                                        <a href="{% url "branches:admins_update" id=admin.id %}">{{ admin }}</a>
+                                    {% endfor %}
+                                </td>
+                                <td>{{ branch.get_agents_count }}</td>
+                                <td>
+                                    {% for team in branch.team_set.all %}
+                                        <a href="{% url "teams:detail" id=team.id %}">{{ team.name }}</a><br>
+                                    {% endfor %}
+                                </td>
+                                <td>
+                                    <a href="{% url "branches:detail" id=branch.id %}" class="btn btn-default">View</a>
+                                    <a href="{% url "branches:update" id=branch.id %}" class="btn btn-info">Edit</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}

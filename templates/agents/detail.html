@@ -1,0 +1,94 @@
+{% extends "portal/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Admin Dashboard{% endblock %}
+
+
+{% block content %}
+    <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="float-left card-title">Agent Details | {{ agent.name }} </h4>
+                <a href="{% url "agents:update" id=agent.id %}" class="btn btn-default float-right">Edit</a>
+              </div>
+              <div class="card-body">
+                  <table class="table">
+                      <tr>
+                          <th>Name</th>
+                          <td>{{ agent.name }} </td>
+                      </tr>
+                      <tr>
+                          <th>Team</th>
+                          <td>
+                              <a href="{% url "teams:detail" id=agent.team.id %}">{{ agent.team }}</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Current Campaign</th>
+                          <td>
+                              <a href="{% url "campaigns:detail" id=agent.team.campaign.id %}">{{ agent.team.campaign }}</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Last Call</th>
+                          <td>{{ agent.call_set.last.created_on|date:"h:i A - d/m/Y"|default:"-" }}</td>
+                      </tr>
+                      <tr>
+                          <th>All Time Leads</th>
+                          <td>{{ all_leads }}</td>
+                      </tr>
+                      <tr>
+                          <th>All Time Calls</th>
+                          <td>{{ all_calls }}</td>
+                      </tr>
+                      <tr>
+                          <th>Overall Success Rate</th>
+                          <td>{% widthratio all_leads all_calls 100 %} %</td>
+                      </tr>
+                  </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Daily Progress</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table" id="progress_table">
+                            <thead>
+                                <td>Date</td>
+                                <td>Leads</td>
+                                <td>Calls</td>
+                                <td>Success Rate</td>
+                            </thead>
+                            <tbody>
+                                {% for date, progress in date_progress.items %}
+                                    <tr>
+                                        <td>{{ date|date:"d/m/Y" }}</td>
+                                        <td>{{ progress.leads }}</td>
+                                        <td>{{ progress.calls }}</td>
+                                        <td>{% widthratio progress.leads progress.calls 100 %} %</td>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+{% endblock %}
+
+{% block custom_script_bottom %}
+    <script>
+        $("#progress_table").DataTable({
+
+        })
+    </script>
+{% endblock %}

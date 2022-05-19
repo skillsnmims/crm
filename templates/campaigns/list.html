@@ -1,0 +1,62 @@
+{% extends "portal/base.html" %}
+
+{% block title %}All Campaigns{% endblock %}
+
+
+{% block content %}
+
+    <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title float-left">All Campaigns</h4>
+                  <a href="{% url "campaigns:create" %}" class="btn float-right btn-outline-default">Create</a>
+              </div>
+              <div class="card-body">
+{#                <div class="table-responsive">#}
+                <div class="">
+                  <table class="table">
+                    <thead class=" text-primary">
+                        <th>
+                            No
+                        </th>
+                      <th>
+                          Name
+                      </th>
+                      <th>
+                          Progress
+                      </th>
+                      <th>
+                          Agents
+                      </th>
+                      <th>
+                          Data
+                      </th>
+                      <th>
+                          Actions
+                      </th>
+                    </thead>
+                    <tbody>
+                        {% for campaign in campaigns %}
+                            <tr>
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{ campaign.name }}</td>
+                                <td>{{ campaign.get_leads_count }} / {{ campaign.get_calls_count }}</td>
+                                <td>{{ campaign.get_agents_count }} ( {{ campaign.get_teams_count }} Teams )</td>
+                                <td>{{ campaign.get_remaining_data_count }} / {{ campaign.get_total_data_count }}</td>
+                                <td>
+                                    <a href="{% url "campaigns:detail" id=campaign.id %}" class="btn btn-default">View</a>
+                                    <a href="{% url "campaigns:update" id=campaign.id %}" class="btn btn-primary">Edit</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}

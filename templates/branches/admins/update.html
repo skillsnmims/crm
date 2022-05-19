@@ -1,0 +1,40 @@
+{% extends "portal/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Update Admin{% endblock %}
+{% block branch_header %}
+    <a class="navbar-brand" href="javascript:;">Admin</a>
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Admin</h4>
+              </div>
+              <div class="card-body">
+                  <form class="form" method="post" action="{% url "branches:admins_update" id=form.instance.id %}">
+                      {% csrf_token %}
+                      {{ form|crispy }}
+                      <a class="text-info" href="#" type="button" id="password_toggle">Set New Password</a>
+                      <div class="text-center">
+                          <input class="btn btn-default" type="submit" value="Save Changes">
+                      </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}
+{% block custom_script_bottom %}
+    <script>
+        $(function () {
+            $("#div_id_password").hide();
+        })
+    </script>
+{% endblock %}
